@@ -4,7 +4,7 @@ It's used primarily for saving characters from create-character,
 where there will be many missing sections.
 
 Modify this file as you level up and then re-generate the character
-sheet by running ``makesheets`` from the command line.
+sheet by running ``makesheets -F filename.py`` from the command line.
 
 """
 
@@ -67,7 +67,7 @@ sp = 0
 ep = 0
 # rolled 11 for starting gold
 # 15 for being a criminal
-# 4 treasure points from Adventurer's League
+# 4 treasure points from Adventurer's League (1 point = 50gp)
 gp = (4 + 3 + 3 + 1) * 10 + 15 + (4 * 50)
 pp = 0
 

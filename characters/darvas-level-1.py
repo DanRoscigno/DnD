@@ -4,25 +4,25 @@ It's used primarily for saving characters from create-character,
 where there will be many missing sections.
 
 Modify this file as you level up and then re-generate the character
-sheet by running ``makesheets`` from the command line.
+sheet by running ``makesheets -F filename.py`` from the command line.
 
 """
 
 dungeonsheets_version = "0.9.4"
 
 name = "Darvas"
-player_name = "Ben"
+player_name = "Dan Roscigno"
 
 # Be sure to list Primary class first
 classes = ['Rogue']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
 levels = [1]  # ex: [10] or [3, 2]
 subclasses = ["Thief"]  # ex: ['Necromacy'] or ['Thief', None]
-background = "Inheritor"
+background = "Criminal"
 race = "Stout Halfling"
 alignment = "Neutral"
 
 xp = 0
-hp_max = 105
+hp_max = 11
 inspiration = 0  # integer inspiration value
 
 # Ability Scores
