@@ -22,7 +22,7 @@ race = "Stout Halfling"
 alignment = "Neutral"
 
 xp = 0
-hp_max = 105
+hp_max = 11 + 5 + 4
 inspiration = 0  # integer inspiration value
 
 # Ability Scores
@@ -65,7 +65,10 @@ languages = """Common, Halfling"""
 cp = 0
 sp = 0
 ep = 0
-gp = 0
+# rolled 11 for starting gold
+# 15 for being a criminal
+# 4 treasure points from Adventurer's League
+gp = (4 + 3 + 3 + 1) * 10 + 15 + (4 * 50)
 pp = 0
 
 # TODO: Put your equipped weapons and armor here
@@ -74,6 +77,10 @@ magic_items = ()  # Example: ('ring of protection',)
 armor = "leather armor"  # Eg "leather armor"
 shield = ""  # Eg "shield"
 
+# See equipment packs on page 151 of PHB
+# Page 129 of PHB: Criminal starting equip: 
+# A crowbar, a set of dark common clothes
+# including a hood, and a belt pouch containing 15 gp
 equipment = """TODO: list the equipment and magic items your character carries"""
 
 attacks_and_spellcasting = """TODO: Describe how your character usually attacks
