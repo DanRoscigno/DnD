@@ -67,15 +67,15 @@ sp = 0
 ep = 0
 # rolled 11 for starting gold
 # 15 for being a criminal
-# 4 treasure points from Adventurer's League (1 point = 50gp)
-gp = (4 + 3 + 3 + 1) * 10 + 15 + (4 * 50)
+# 4 treasure points from Adventurer's League (1 point = 50gp) - 10 for shield
+gp = (4 + 3 + 3 + 1) * 10 + 15 + (4 * 50) - 10
 pp = 0
 
 # TODO: Put your equipped weapons and armor here
 weapons = ('rapier', 'dagger', 'shortbow')  # Example: ('shortsword', 'longsword')
 magic_items = ()  # Example: ('ring of protection',)
 armor = "leather armor"  # Eg "leather armor"
-shield = ""  # Eg "shield"
+shield = "shield"  # Eg "shield"
 
 # See equipment packs on page 151 of PHB
 # Page 129 of PHB: Criminal starting equip: 
