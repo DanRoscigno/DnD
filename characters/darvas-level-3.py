@@ -67,7 +67,8 @@ sp = 0
 ep = 0
 # rolled 11 for starting gold
 # 15 for being a criminal
-# 4 treasure points from Adventurer's League (1 point = 50gp) - 10 for shield
+# 4 treasure points from Adventurer's League (1 point = 50gp) 
+# - 10 to buy shield
 gp = (4 + 3 + 3 + 1) * 10 + 15 + (4 * 50) - 10
 pp = 0
 
