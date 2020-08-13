@@ -79,11 +79,17 @@ shield = "shield"
 # including a hood, and a belt pouch containing 15 gp
 equipment = """TODO: list the equipment and magic items your character carries"""
 
-attacks_and_spellcasting = """ATK Bonus=prof bonus + Dex;
+attacks_and_spellcasting = """ATK Bonus=prof bonus + Dex
                               Damage=roll + Dex on
-                              finesse & range weapon. Thrown
-                              dagger uses strength instead of dex.
-                              Armor Class is -2 without shield"""
+                              finesse & range weapon.
+                              Thrown dagger uses strength
+                              instead of dex.
+                              Armor Class is -2 without shield.
+
+                              Dagger range 20/60
+
+                              Shortbow range 80/320
+"""
 
 # List of known spells
 # Example: spells_prepared = ('magic missile', 'mage armor')
