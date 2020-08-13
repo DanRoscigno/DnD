@@ -79,11 +79,11 @@ shield = "shield"
 # including a hood, and a belt pouch containing 15 gp
 equipment = """TODO: list the equipment and magic items your character carries"""
 
-attacks_and_spellcasting = """Notes: ATK Bonus is my
-                              proficiency bonus + Dex;
-                              Damage is roll + Dex on
-                              finesse weapons.  Why is
-                              shortbow also +3?"""
+attacks_and_spellcasting = """ATK Bonus=prof bonus + Dex;
+                              Damage=roll + Dex on
+                              finesse & range weapon. Thrown
+                              dagger uses strength instead of dex.
+                              Armor Class is -2 without shield"""
 
 # List of known spells
 # Example: spells_prepared = ('magic missile', 'mage armor')
