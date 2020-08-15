@@ -1,10 +1,8 @@
 """This file describes the heroic adventurer Philoneus.
 
-
 Modify this file as you level up and then re-generate the character
 sheet by running ``makesheets -F Philoneus-level3.py`` from the 
 command line.
-
 """
 
 dungeonsheets_version = "0.9.4"
@@ -12,19 +10,38 @@ dungeonsheets_version = "0.9.4"
 name = "Philoneus"
 player_name = "Mark M."
 
-# Be sure to list Primary class first
-classes = ['Monk']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [3]  # ex: [10] or [3, 2]
-subclasses = ["Way of the Drunken Master"] # of the Open Hand"]  # ex: ['Necromacy'] or ['Thief', None]
+classes = ['Monk']
+levels = [3]
+
+# Based on your attacks at the end of our last session
+# I set the subclass to Way of the Drunken Master:
+subclasses = ["Way of the Drunken Master"] 
+
+# This is an example for your background, change it to
+# your choice:
 background = "Charlatan"
-race = "Forest Gnome"
+
+# Same for race, I just chose Human at random:
+race = "Human"
+
+# I don't know what is "normal" for Monks, set it as you wish:
 alignment = "Lawful good"
 
+# I don't think we use xp any more, Mark will tell you if
+# he uses xp or the new leveling system:
 xp = 0
-hp_max = 105
+
+# Max hit points: At Level 1 you get 8 plus Constitution modifier  
+# (because this is dependent on your Constitution modifier
+# you will have to roll/calculate your ability scores first).
+# At further levels you use 1d8 + Constitution modifier.
+# Below are samples, change to yours: 
+hp_max = 9 + 5 + 4
+
 inspiration = 0  # integer inspiration value
 
-# Ability Scores
+# Ability Scores, talk to your DM and set these to your rolls
+# or however you and your DM want to allocate points.
 strength = 8
 dexterity = 16
 constitution = 13
@@ -32,17 +49,23 @@ intelligence = 14
 wisdom = 14
 charisma = 10
 
-# Select what skills you're proficient with
-# ex: skill_proficiencies = ('athletics', 'acrobatics', 'arcana')
-skill_proficiencies = ('athletics', 'religion', 'deception', 'sleight of hand')
+# Select what skills you're proficient with. Choose two from
+# this list as a Monk:
+#     acrobatics, athletics, history, insight, religion, stealth
 
-# Any skills you have "expertise" (Bard/Rogue) in
+# Your background will also give you profiency, also add those.
+#
+# ex: skill_proficiencies = ('athletics', 'acrobatics', 'deception', 'sleight of hand')
+skill_proficiencies = ('athletics', 'stealth', 'deception', 'sleight of hand')
+
+# Any skills you have "expertise" in
 skill_expertise = ()
 
-# Named features / feats that aren't part of your classes, race, or background.
-# Also include Eldritch Invocations and features you make multiple selection of
-# (like Maneuvers for Fighter, Metamagic for Sorcerors, Trick Shots for
-# Gunslinger, etc.)
+# Named features / feats that aren't part of your classes, 
+# race, or background.
+# Also include Eldritch Invocations and features you make 
+# multiple selection of (like Maneuvers for Fighter, Metamagic 
+# for Sorcerors, Trick Shots for Gunslinger, etc.)
 # Example:
 # features = ('Tavern Brawler',) # take the optional Feat from PHB
 features = ()
@@ -68,10 +91,15 @@ gp = 0
 pp = 0
 
 # TODO: Put your equipped weapons and armor here
-weapons = ()  # Example: ('shortsword', 'longsword')
+
+# You start with the following equipment, in addition to 
+# the equipment granted by your background:
+#  • (a) a shortsword or (b) any simple weapon
+#  • (a) a dungeoneer's pack or (b) an explorer's pack - 10 darts
+weapons = ('shortsword')  # Example: ('shortsword')
 magic_items = ()  # Example: ('ring of protection',)
-armor = ""  # Eg "leather armor"
-shield = ""  # Eg "shield"
+armor = ""  # Leave blank, right?
+shield = ""  # Leave blank, right?
 
 equipment = """TODO: list the equipment and magic items your character carries"""
 
