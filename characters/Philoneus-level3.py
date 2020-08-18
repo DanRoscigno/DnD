@@ -13,16 +13,17 @@ player_name = "Mark M."
 classes = ['Monk']
 levels = [3]
 
-# Based on your attacks at the end of our last session
-# I set the subclass to Way of the Drunken Master:
-subclasses = ["Way of the Drunken Master"] 
+# I just chose Human at random, pg 17 in Player's
+# Handbook:
+race = "Human"
 
-# This is an example for your background, change it to
-# your choice:
+# This is an example for Philoneus' background, change it to
+# your choice.  See Player's Handbook pg 121:
 background = "Charlatan"
 
-# Same for race, I just chose Human at random:
-race = "Human"
+# Based on your attacks at the end of our last session
+# I set the subclass (Monastic Tradition) to Way of the Drunken Master:
+subclasses = ["Way of the Drunken Master"] 
 
 # I don't know what is "normal" for Monks, set it as you wish:
 alignment = "Lawful good"
