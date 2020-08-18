@@ -23,7 +23,12 @@ xp = 0
 hp_max = 11 + 5 + 4
 inspiration = 0  # integer inspiration value
 
-# Ability Scores
+# Ability Scores.  The Adventure League DM had me use this calculator:
+# https://chicken-dinner.com/5e/5e-point-buy.html 
+# It starts out with 8's for all of your abilities, and then you can
+# allocate a total of 24 more points as you like.  Talk to Mark about
+# what he suggests.  Note: The calculator linked above will automatically
+# add points based on your chosen race and sub-race.
 strength = 8
 dexterity = 16
 constitution = 16
