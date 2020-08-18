@@ -52,7 +52,7 @@ feature_choices = ()
 
 # Weapons/other proficiencies not given by class/race/background
 weapon_proficiencies = ('dagger', 'shortbow', 'rapier')
-_proficiencies_text = ("thieves' tools",)
+_proficiencies_text = ("thieves' tools", "Dice set")
 
 # Proficiencies and languages
 languages = """Common, Halfling"""
@@ -77,7 +77,8 @@ shield = "shield"
 # Page 129 of PHB: Criminal starting equip: 
 # A crowbar, a set of dark common clothes
 # including a hood, and a belt pouch containing 15 gp
-equipment = """TODO: list the equipment and magic items your character carries"""
+equipment = """A crowbar, a set of dark common clothes
+including a hood, and a belt pouch containing my coins"""
 
 attacks_and_spellcasting = """ATK Bonus=prof bonus + Dex
                               Damage=roll + Dex on
@@ -106,16 +107,18 @@ wild_shapes = ()  # Ex: ('ape', 'wolf', 'ankylosaurus')
 
 # Backstory
 # Describe your backstory here
-personality_traits = """TODO: How does your character
-                        behave? See the PHB for
-                        examples of all the sections below"""
+personality_traits = """The first thing I do in a new place is
+note the locations of everything valuable—or where such things
+could be hidden."""
 
-ideals = """TODO: What does your character believe in?"""
+ideals = """I'm loyal to my friends, not to any ideals, and
+everyone else can take a trip down the Styx for all I
+care. (Neutral)"""
 
-bonds = """TODO: Describe what debts your character has to pay,
-and other commitments or ongoing quests they have."""
+bonds = """I'm trying to pay off an old debt I owe to a generous
+benefactor."""
 
-flaws = """TODO: Describe your characters interesting flaws.
+flaws = """I have a "tell" that reveals when I'm lying.
 """
 
 features_and_traits = """TODO: Describe other features
