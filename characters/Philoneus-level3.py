@@ -121,7 +121,7 @@ spells = spells_prepared + __spells_unprepared
 wild_shapes = ()  # Ex: ('ape', 'wolf', 'ankylosaurus')
 
 # Backstory
-# Describe your backstory here
+# Describe your backstory here, see Player's Handbook pg 121:
 personality_traits = """TODO: How does your character behave? See the PHB for
 examples of all the sections below"""
 
