@@ -79,11 +79,37 @@ armor = "leather armor"
 shield = "shield"
 
 # See equipment packs on page 151 of PHB
-# Page 129 of PHB: Criminal starting equip: 
+# Page 129 of PHB: (Criminal) starting equip: 
 # A crowbar, a set of dark common clothes
 # including a hood, and a belt pouch containing 15 gp
-equipment = """A crowbar, a set of dark common clothes
-including a hood, and a belt pouch containing my coins"""
+#
+# Also pg 96 (Rogue)
+# You start with the following equipment, in addition
+# to the equipment granted by your background:
+# • (a) a rapier or (b) a shortsword
+# • (a) a shortbow and quiver of 20 arrows or (b) a
+# shortsword
+# • (a) a burglar's pack, (b) a dungeoneer's pack, or (c) an
+# explorer's pack
+# • Leather armor, two daggers, and thieves' tools
+# equipment = """A crowbar, a set of dark common clothes
+# including a hood, and a belt pouch containing my coins"""
+#
+# Fom the above:
+# Burglar's Pack: a backpack, a bag of 1,000 ball bearings, 
+# 10 feet of string, a bell, 5 candles, a crowbar, a hammer, 
+# 10 pitons, a hooded lantern, 2 flasks of oil, 5 days rations, 
+# a tinderbox, and a waterskin. The pack also has 50 feet of 
+# hempen rope strapped to the side of it.
+#
+# crowbar
+# dark common clothes with hood
+# 15 gp in belt pouch
+# rapier
+# shortbow and 20 arrows
+# Leather armor
+# two daggers
+# thieves tools
 
 attacks_and_spellcasting = """ATK Bonus=prof bonus + Dex
                               Damage=roll + Dex on
