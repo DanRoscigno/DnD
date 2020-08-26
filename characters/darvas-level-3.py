@@ -73,11 +73,6 @@ ep = 0
 gp = (4 + 3 + 3 + 1) * 10 + 15 + (4 * 50) - 10
 pp = 0
 
-weapons = ('rapier', 'dagger', 'shortbow')
-magic_items = ()  # Example: ('ring of protection',)
-armor = "leather armor"
-shield = "shield"
-
 # See equipment packs on page 151 of PHB
 # Page 129 of PHB: (Criminal) starting equip: 
 # A crowbar, a set of dark common clothes
@@ -110,6 +105,19 @@ shield = "shield"
 # Leather armor
 # two daggers
 # thieves tools
+
+weapons = ('rapier', 'dagger', 'shortbow')
+magic_items = ()  # Example: ('ring of protection',)
+armor = "leather armor"
+shield = "shield"
+equipment = (
+    """Shortbow, 20 arrows, 2 daggers, rapier, leather armor, thieves’ tools,
+    backpack, a bag of 1,000 ball bearings, 10 feet of string, 
+    bell, 5 candles,
+    crowbar, hammer, 10 pitons, 50 feet of hempen rope, 
+    hooded lantern, 2 flasks of oil, 5 days rations,
+    tinderbox, waterskin, crowbar, set of dark common clothes
+    including a hood, pouch.""")
 
 attacks_and_spellcasting = """ATK Bonus=prof bonus + Dex
                               Damage=roll + Dex on
