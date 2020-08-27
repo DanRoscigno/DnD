@@ -56,7 +56,7 @@ features = ()
 feature_choices = ()
 
 # Weapons/other proficiencies not given by class/race/background
-weapon_proficiencies = ('dagger', 'shortbow', 'rapier')
+weapon_proficiencies = ()
 _proficiencies_text = ("Dice set",)
 
 # Proficiencies and languages
