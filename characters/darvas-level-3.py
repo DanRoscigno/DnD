@@ -57,7 +57,7 @@ feature_choices = ()
 
 # Weapons/other proficiencies not given by class/race/background
 weapon_proficiencies = ('dagger', 'shortbow', 'rapier')
-_proficiencies_text = ("thieves' tools", "Dice set")
+_proficiencies_text = ("Dice set",)
 
 # Proficiencies and languages
 languages = """Common, Halfling"""
@@ -110,26 +110,61 @@ weapons = ('rapier', 'dagger', 'shortbow')
 magic_items = ()  # Example: ('ring of protection',)
 armor = "leather armor"
 shield = "shield"
-equipment = (
-    """Shortbow, 20 arrows, 2 daggers, rapier, leather armor, thieves’ tools,
-    backpack, a bag of 1,000 ball bearings, 10 feet of string, 
-    bell, 5 candles,
-    crowbar, hammer, 10 pitons, 50 feet of hempen rope, 
-    hooded lantern, 2 flasks of oil, 5 days rations,
-    tinderbox, waterskin, crowbar, set of dark common clothes
-    including a hood, pouch.""")
+equipment = ( """--Shortbow and 20 arrows 
 
-attacks_and_spellcasting = """ATK Bonus=prof bonus + Dex
-                              Damage=roll + Dex on
-                              finesse & range weapon.
-                              Thrown dagger uses strength
-                              instead of dex.
-                              Armor Class is -2 without shield.
+--2 daggers
 
-                              Dagger range 20/60
+--rapier
 
-                              Shortbow range 80/320
-"""
+--leather armor
+
+--wood shield
+
+--thieves’ tools
+
+--backpack
+
+--a bag of 1,000 ball bearings
+
+--10 feet of string
+ 
+--bell
+
+--5 candles
+
+--crowbar
+
+--hammer
+
+--10 pitons
+
+--50 feet of hempen rope
+
+--hooded lantern
+
+--2 flasks of oil
+
+--5 days rations
+
+--tinderbox
+
+--waterskin
+
+--set of dark common clothes with hood
+
+--pouch.""")
+
+attacks_and_spellcasting = """--ATK Bonus=prof bonus + Dex
+
+--Damage=roll + Dex on finesse & range weapon.
+
+--Thrown dagger uses strength instead of dex.
+
+--Armor Class is -2 without shield.
+
+--Dagger range 20/60
+
+--Shortbow range 80/320""" 
 
 # List of known spells
 # Example: spells_prepared = ('magic missile', 'mage armor')
@@ -160,6 +195,6 @@ benefactor."""
 flaws = """I have a "tell" that reveals when I'm lying.
 """
 
-features_and_traits = """TODO: Describe other features
-                         and abilities your
-                         character has."""
+# features_and_traits = """TODO: Describe other features
+#                         and abilities your
+#                         character has."""
