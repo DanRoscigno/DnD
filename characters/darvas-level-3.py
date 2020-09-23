@@ -13,14 +13,14 @@ player_name = "Dan R"
 
 # Be sure to list Primary class first
 classes = ['Rogue']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [3]  # ex: [10] or [3, 2]
+levels = [4]  # ex: [10] or [3, 2]
 subclasses = ["Thief"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Criminal"
 race = "Stout Halfling"
 alignment = "Neutral"
 
 xp = 0
-hp_max = 11 + 5 + 4
+hp_max = 11 + 5 + 4 + 4
 inspiration = 0  # integer inspiration value
 
 # Ability Scores.  The Adventure League DM had me use this calculator:
@@ -30,7 +30,7 @@ inspiration = 0  # integer inspiration value
 # what he suggests.  Note: The calculator linked above will automatically
 # add points based on your chosen race and sub-race.
 strength = 8
-dexterity = 16
+dexterity = 18
 constitution = 16
 intelligence = 14
 wisdom = 12
@@ -119,6 +119,8 @@ equipment = ( """--Shortbow and 20 arrows
 --leather armor
 
 --wood shield
+
+--camoflage cape from friends in Lorca
 
 --thieves’ tools
 
