@@ -25,7 +25,7 @@ running Foundry VTT can read:
 ```
 sudo cp /etc/letsencrypt/live/<your fully qualified domainname>/fullchain.pem ~/foundrydata/
 sudo cp /etc/letsencrypt/live/<your fully qualified domainname>/privkey.pem ~/foundrydata/
-sudo chown <the username running your Foundry VTT server> privkey.pem 
+sudo chown <the username running your Foundry VTT server> ~/foundrydata/privkey.pem 
 ```
 
 #### Add the full path for each cert to the setup entries for SSL
