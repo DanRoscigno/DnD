@@ -17,7 +17,7 @@ player_name = "Dan R"
 classes = ['Druid']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
 levels = [1]  # ex: [10] or [3, 2]
 subclasses = ['']  # ex: ['Necromacy'] or ['Thief', None]
-background = "GuildArtisan"
+background = "Smuggler"
 race = "Wood Elf"
 alignment = "Lawful good"
 
@@ -35,7 +35,7 @@ charisma = 8
 
 # Select what skills you're proficient with
 # ex: skill_proficiencies = ('athletics', 'acrobatics', 'arcana')
-skill_proficiencies = ('perception', 'arcana', 'insight', 'persuasion', 'nature')
+skill_proficiencies = ('perception', 'arcana', 'athletics', 'deception', 'nature')
 
 # Any skills you have "expertise" (Bard/Rogue) in
 skill_expertise = ()
@@ -55,7 +55,7 @@ feature_choices = ()
 
 # Weapons/other proficiencies not given by class/race/background
 weapon_proficiencies = ()  # ex: ('shortsword', 'quarterstaff')
-_proficiencies_text = ("Distiller's tools",)  # ex: ("thieves' tools",)
+_proficiencies_text = ("Herbalism kit", "water vehicle tools",)  # ex: ("thieves' tools",)
 
 # Proficiencies and languages
 languages = """Common, Elvish, Undercommon"""
@@ -70,34 +70,36 @@ pp = 0
 
 # TODO: Put your equipped weapons and armor here
 #weapons = ["Scimitar", "Javelin", "Mace"]  # Example: ('shortsword', 'longsword')
-weapons = ["Scimitar"]  # Example: ('shortsword', 'longsword')
+weapons = ["Quarterstaff"]  # Example: ('shortsword', 'longsword')
 magic_items = ()  # Example: ('ring of protection',)
 armor = "Hide Armor"  # Eg "leather armor"
 shield = "Shield"  # Eg "shield"
 
-equipment = ( """--bedroll
+equipment = ( """- bedroll
 
---distiller's’ tools
+- Herbalism kit
 
---backpack
+- leather boots
 
---mess kit
+- backpack
 
---tinderbox
+- mess kit
 
---10 torches
+- tinderbox
 
---10 days of rations
+- 10 torches
 
---waterskin
+- 10 days of rations
 
---50 feet of hempen rope
+- waterskin
 
---letter of introduction from distillers' guild
+- 50 feet of hempen rope
 
---traveler's clothes
+- letter of introduction from distillers' guild
 
---pouch.""")
+- common clothes
+
+- pouch.""")
 
 
 attacks_and_spellcasting = """TODO: Describe how your character usually attacks
@@ -105,7 +107,7 @@ or uses spells."""
 
 # List of known spells
 # Example: spells_prepared = ('magic missile', 'mage armor')
-spells_prepared = ('druidcraft', 'thorn whip')  # Todo: Learn some spells
+spells_prepared = ('shillelagh', 'shape water')  # Todo: Learn some spells
 
 # Which spells have not been prepared
 __spells_unprepared = ('entangle', 'faerie fire', 'healing word')
@@ -121,13 +123,12 @@ infusions = () # Ex: ('repeating shot', 'replicate magic item')
 
 # Backstory
 # Describe your backstory here
-personality_traits = """TODO: Describe how your character behaves, interacts with others"""
+personality_traits = """I become wistful when I see the sun rise over the ocean."""
 
-ideals = """TODO: Describe what values your character believes in."""
+ideals = """I will not cheat another smuggler or directly harm innocents."""
 
-bonds = """TODO: Describe your character's commitments or ongoing quests."""
+bonds = """Much of the treasure I claim will be used to enrich my community."""
 
-flaws = """TODO: Describe your character's interesting flaws."""
+flaws = """I struggle to trust the words of others."""
 
-features_and_traits = """TODO: Describe other features and abilities your
-character has."""
+features_and_traits = """While rowing along the coast of Saltmarsh, stopping off once in a while to sell bottles of Elverquisst, which the locals enjoyed for its warming effects, I was caught in a sudden storm and struck by lightning.  When I awoke, I could feel the residual energy of the lightning coursing through my body.  The only real damage to the rowboat was to one oar, which seemed to take the brunt of the strike, and is now my staff.  I am naturally respectful of Nature, and have since been studying Nature's power."""
