@@ -63,23 +63,27 @@ languages = """Common, Elvish, Undercommon"""
 # Inventory
 # TODO: Get yourself some money
 cp = 0
-sp = 0
+sp = 35
 ep = 0
 gp = 15
 pp = 0
 
 # TODO: Put your equipped weapons and armor here
 #weapons = ["Scimitar", "Javelin", "Mace"]  # Example: ('shortsword', 'longsword')
-weapons = ["Quarterstaff"]  # Example: ('shortsword', 'longsword')
-magic_items = ()  # Example: ('ring of protection',)
+weapons = ["Quarterstaff", "shortsword", "shortsword", "dagger", "club"]  # Example: ('shortsword', 'longsword')
+#magic_items = ('healing potion', 'scroll (detect magic??)')  # Example: ('ring of protection',)
 armor = "Hide Armor"  # Eg "leather armor"
 shield = "Shield"  # Eg "shield"
 
 equipment = ( """- bedroll
 
+- healing potion
+
+- scroll (maybe detect magic?)
+
 - Herbalism kit
 
-- leather boots
+- 2 pair leather boots
 
 - backpack
 
@@ -95,11 +99,11 @@ equipment = ( """- bedroll
 
 - 50 feet of hempen rope
 
-- letter of introduction from distillers' guild
-
 - common clothes
 
-- pouch.""")
+- pouch
+
+- a small amount of Elverquiist in a beatiful bottle""")
 
 
 attacks_and_spellcasting = """TODO: Describe how your character usually attacks
@@ -110,7 +114,7 @@ or uses spells."""
 spells_prepared = ('shillelagh', 'shape water')  # Todo: Learn some spells
 
 # Which spells have not been prepared
-__spells_unprepared = ('entangle', 'faerie fire', 'healing word')
+__spells_unprepared = ('entangle', 'thunderwave', 'cure wounds')
 
 # all spells known
 spells = spells_prepared + __spells_unprepared
