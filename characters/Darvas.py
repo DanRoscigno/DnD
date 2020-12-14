@@ -116,19 +116,19 @@ equipment = ( """--Shortbow and 20 arrows
 
 --magic potion of unknown type
 
---camoflage cape from friends in Lorca
+--camo cape from Lorca friends
 
 --thieves’ tools
 
 --backpack and pouch
 
---a bag of 1,000 ball bearings
+--1,000 ball bearings
 
 --10 feet of string
  
 --bell
 
---5 candles
+--5 candles + tinderbox
 
 --crowbar
 
@@ -140,9 +140,7 @@ equipment = ( """--Shortbow and 20 arrows
 
 --5 days rations + waterskin
 
---tinderbox
-
---set of dark common clothes with hood""")
+--dark common clothes w/ hood""")
 
 attacks_and_spellcasting = """--ATK Bonus=prof bonus + Dex
 
