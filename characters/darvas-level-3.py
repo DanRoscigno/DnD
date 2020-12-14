@@ -120,6 +120,8 @@ equipment = ( """--Shortbow and 20 arrows
 
 --wood shield
 
+--magic potion of unknownn type
+
 --camoflage cape from friends in Lorca
 
 --thieves’ tools
