@@ -112,21 +112,15 @@ armor = "leather armor"
 shield = "shield"
 equipment = ( """--Shortbow and 20 arrows 
 
---2 daggers
+--extra dagger
 
---rapier
-
---leather armor
-
---wood shield
-
---magic potion of unknownn type
+--magic potion of unknown type
 
 --camoflage cape from friends in Lorca
 
 --thieves’ tools
 
---backpack
+--backpack and pouch
 
 --a bag of 1,000 ball bearings
 
@@ -138,25 +132,17 @@ equipment = ( """--Shortbow and 20 arrows
 
 --crowbar
 
---hammer
-
---10 pitons
+--hammer + 10 pitons
 
 --50 feet of hempen rope
 
---hooded lantern
+--hooded lantern + 2 flasks oil
 
---2 flasks of oil
-
---5 days rations
+--5 days rations + waterskin
 
 --tinderbox
 
---waterskin
-
---set of dark common clothes with hood
-
---pouch.""")
+--set of dark common clothes with hood""")
 
 attacks_and_spellcasting = """--ATK Bonus=prof bonus + Dex
 
@@ -199,6 +185,9 @@ benefactor."""
 flaws = """I have a "tell" that reveals when I'm lying.
 """
 
-# features_and_traits = """TODO: Describe other features
-#                         and abilities your
-#                         character has."""
+features_and_traits = """ STOUT RESILIENCE
+Source: Race (Stout Halfling)
+You have advantage on saving throws against
+poison, and you have resistance against poison damage
+(added here to avoid printing 3rd page!)"""
+
