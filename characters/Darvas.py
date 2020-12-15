@@ -116,13 +116,15 @@ equipment = ( """--Shortbow and 20 arrows
 
 --magic potion of unknown type
 
+--magic sword with Dwarvish runes
+
 --camo cape from Lorca friends
 
 --thieves’ tools
 
 --backpack and pouch
 
---1,000 ball bearings
+--800 ball bearings
 
 --10 feet of string
  
