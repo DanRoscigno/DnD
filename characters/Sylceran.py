@@ -79,7 +79,7 @@ equipment = ( """- bedroll
 
 - healing potion
 
-- scroll (maybe detect magic?)
+- scroll (detect magic?)
 
 - Herbalism kit
 
@@ -87,11 +87,9 @@ equipment = ( """- bedroll
 
 - backpack + pouch
 
-- mess kit
+- mess kit + 10 rations
 
 - tinderbox + 10 torches
-
-- 10 days of rations
 
 - waterskin
 
@@ -99,7 +97,7 @@ equipment = ( """- bedroll
 
 - common clothes
 
-- a small amount of Elverquiist in a beatiful bottle""")
+- beatiful bottle w/ bit of Elverquiist""")
 
 
 attacks_and_spellcasting = """Shillelagh and whack with staff. If there are multiple enemies, then Entangle and whack, unless they will be able to attack back with ranged weapons.  If that is not enough, then Thunderwave.  Entangle causes a strenth save against my spell save DC, Thunderwave is a constitution save."""
