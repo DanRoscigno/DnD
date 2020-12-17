@@ -70,7 +70,7 @@ pp = 0
 
 # TODO: Put your equipped weapons and armor here
 #weapons = ["Scimitar", "Javelin", "Mace"]  # Example: ('shortsword', 'longsword')
-weapons = ["Quarterstaff", "shortsword", "shortsword", "dagger", "club"]  # Example: ('shortsword', 'longsword')
+weapons = ["Quarterstaff", "shortsword", "dagger", "club"]  # Example: ('shortsword', 'longsword')
 #magic_items = ('healing potion', 'scroll (detect magic??)')  # Example: ('ring of protection',)
 armor = "Hide Armor"  # Eg "leather armor"
 shield = "Shield"  # Eg "shield"
