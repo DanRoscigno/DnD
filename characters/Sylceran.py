@@ -85,13 +85,11 @@ equipment = ( """- bedroll
 
 - 2 pair leather boots
 
-- backpack
+- backpack + pouch
 
 - mess kit
 
-- tinderbox
-
-- 10 torches
+- tinderbox + 10 torches
 
 - 10 days of rations
 
@@ -101,20 +99,17 @@ equipment = ( """- bedroll
 
 - common clothes
 
-- pouch
-
 - a small amount of Elverquiist in a beatiful bottle""")
 
 
-attacks_and_spellcasting = """TODO: Describe how your character usually attacks
-or uses spells."""
+attacks_and_spellcasting = """Shillelagh and whack with staff. If there are multiple enemies, then Entangle and whack, unless they will be able to attack back with ranged weapons.  If that is not enough, then Thunderwave.  Entangle causes a strenth save against my spell save DC, Thunderwave is a constitution save."""
 
 # List of known spells
 # Example: spells_prepared = ('magic missile', 'mage armor')
-spells_prepared = ('shillelagh', 'shape water')  # Todo: Learn some spells
+spells_prepared = ('shillelagh', 'shape water', 'cure wounds')  # Todo: Learn some spells
 
 # Which spells have not been prepared
-__spells_unprepared = ('entangle', 'thunderwave', 'cure wounds')
+__spells_unprepared = ('entangle', 'thunderwave')
 
 # all spells known
 spells = spells_prepared + __spells_unprepared
