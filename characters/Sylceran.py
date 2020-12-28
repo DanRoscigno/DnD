@@ -22,7 +22,8 @@ race = "Wood Elf"
 alignment = "Lawful good"
 
 xp = 0
-hp_max = 8
+# hit points are a D8 plus Constitution bonus
+hp_max = 8 + 2
 inspiration = False  # boolean inspiration value
 
 # Ability Scores
