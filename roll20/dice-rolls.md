@@ -43,5 +43,5 @@ Make sure to update these templates when Darvas or Sylceran up-level
 - Attack roll: adding 3 for wisdom and 2 for proficiency
 - Damage roll: adding 3 for wisdom
 ```
-/me &{template:default} {{name=Staff with Shillelagh Attack}} {{Attack (roll+Wis+Pro)=[[1d20+3+2]]}} {{damage=[[1d8+3]]}}
+&{template:default} {{name=Staff with Shillelagh Attack}} {{Attack (roll+Wis+Pro)=[[1d20+3+2]]}} {{damage=[[1d8+3]]}}
 ```
