@@ -43,5 +43,22 @@ Make sure to update these templates when Darvas or Sylceran up-level
 - Attack roll: adding 3 for wisdom and 2 for proficiency
 - Damage roll: adding 3 for wisdom
 ```
-&{template:default} {{name=Staff with Shillelagh Attack}} {{Attack (roll+Wis+Pro)=[[1d20+3+2]]}} {{damage=[[1d8+3]]}}
+&{template:default} {{name=Staff with Shillelagh Attack}} {{Attack (roll+Wis+Pro)=[[1d20+3+2]]}} {{damage (1 or 2 handed!)=[[1d8+3]]}}
+```
+
+### Cure Wounds
+```
+&{template:default} {{name=Cure Wounds}} {{healing=[[1d8+3]]}}
+```
+
+### Thunderwave
+```
+&{template:default} {{name=Thunderwave Attack}} {{damage=[[2d8]]}}  {{or w/ con save 1/2}}
+```
+
+### Staff without Shillelagh
+- Attack roll: adding 1 for strength and 2 for proficiency
+- Damage roll: adding 1 for strength
+```
+&{template:default} {{name=Staff w/o Shillelagh Attack}} {{Attack=[[1d20+1+2]]}} {{damage (2 handed)=[[1d8+1]]}} {{damage (1 handed)=[[1d6+1]]}}
 ```
