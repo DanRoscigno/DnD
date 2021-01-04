@@ -13,7 +13,7 @@ Make sure to update these templates when Darvas or Sylceran up-level
 - Damage roll: adding 4 for dexterity and 1 for magic
 - Sneak attack: 2d6 at 4th level
 ```
-&{template:default} {{name=Magic Shortsword}} {{Attack (roll+Dex+Pro+Magic)=[[1d20+4+2+1]]}} {{damage (roll+Dex+Magic)=[[1d8+4+1]]}} {{Sneak attack (if applicable)=[[2d6]]}}
+&{template:default} {{name=Magic Shortsword}} {{Attack (roll+Dex+Pro+Magic)=[[1d20+4+2+1]]}} {{damage (roll+Dex+Magic)=[[1d6+4+1]]}} {{Sneak attack (if applicable)=[[2d6]]}}
 ```
 ### Rapier
 - Attack roll: adding 4 for dexterity and 2 for proficiency
@@ -27,14 +27,14 @@ Make sure to update these templates when Darvas or Sylceran up-level
 - Damage roll: adding 4 for dexterity
 - Sneak attack: 2d6 at 4th level
 ```
-&{template:default} {{name=Dagger (stab)}} {{Attack (roll+Dex+Pro)=[[1d20+4+2]]}} {{damage=[[1d6+4]]}} {{Sneak attack (if applicable)=[[2d6]]}}
+&{template:default} {{name=Dagger (stab)}} {{Attack (roll+Dex+Pro)=[[1d20+4+2]]}} {{damage=[[1d4+4]]}} {{Sneak attack (if applicable)=[[2d6]]}}
 ```
 ### Dagger (thrown)
 - Attack roll: adding 4 for dexterity and 2 for proficiency
 - Damage roll: subtracting 1 for strength
 - Sneak attack: 2d6 at 4th level
 ```
-&{template:default} {{name=Dagger (thrown)}} {{Attack (roll+Str+Pro)=[[1d20-1+2]]}} {{damage=[[1d6-1]]}} {{Sneak attack (if applicable)=[[2d6]]}}
+&{template:default} {{name=Dagger (thrown)}} {{Attack (roll+Str+Pro)=[[1d20-1+2]]}} {{damage=[[1d4-1]]}} {{Sneak attack (if applicable)=[[2d6]]}}
 ```
 
 ## Sylceran
