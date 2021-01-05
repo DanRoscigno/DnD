@@ -47,6 +47,7 @@ Make sure to update these templates when Darvas or Sylceran up-level
 ```
 
 ### Cure Wounds
+- Add 3 for wisdom
 ```
 &{template:default} {{name=Cure Wounds}} {{healing=[[1d8+3]]}}
 ```
