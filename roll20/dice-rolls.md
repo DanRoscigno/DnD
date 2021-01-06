@@ -2,39 +2,39 @@
 Make sure to update these templates when Darvas or Sylceran up-level
 ## Darvas
 ### Shortbow
-- Attack roll: adding 4 for dexterity and 2 for proficiency
+- Attack roll: adding 4 for dexterity and 3 for proficiency
 - Damage roll: adding 4 for dexterity
-- Sneak attack: 2d6 at 4th level
+- Sneak attack: 3d6 at 5th level
 ```
-&{template:default} {{name=Shortbow}} {{Attack (roll+Dex+Pro)=[[1d20+4+2]]}} {{damage (roll+Dex)=[[1d6+4]]}} {{Sneak attack (if applicable)=[[2d6]]}}
+&{template:default} {{name=Shortbow}} {{Attack (roll+Dex+Pro)=[[1d20+4+3]]}} {{damage (roll+Dex)=[[1d6+4]]}} {{Sneak attack (if applicable)=[[3d6]]}}
 ```
 ### Magic Shortsword
-- Attack roll: adding 4 for dexterity and 2 for proficiency and 1 for magic
+- Attack roll: adding 4 for dexterity and 3 for proficiency and 1 for magic
 - Damage roll: adding 4 for dexterity and 1 for magic
-- Sneak attack: 2d6 at 4th level
+- Sneak attack: 3d6 at 5th level
 ```
-&{template:default} {{name=Magic Shortsword}} {{Attack (roll+Dex+Pro+Magic)=[[1d20+4+2+1]]}} {{damage (roll+Dex+Magic)=[[1d6+4+1]]}} {{Sneak attack (if applicable)=[[2d6]]}}
+&{template:default} {{name=Magic Shortsword}} {{Attack (roll+Dex+Pro+Magic)=[[1d20+4+3+1]]}} {{damage (roll+Dex+Magic)=[[1d6+4+1]]}} {{Sneak attack (if applicable)=[[3d6]]}}
 ```
 ### Rapier
-- Attack roll: adding 4 for dexterity and 2 for proficiency
+- Attack roll: adding 4 for dexterity and 3 for proficiency
 - Damage roll: adding 4 for dexterity
-- Sneak attack: 2d6 at 4th level
+- Sneak attack: 3d6 at 5th level
 ```
-&{template:default} {{name=Rapier}} {{Attack (roll+Dex+Pro)=[[1d20+4+2]]}} {{damage (roll+Dex)=[[1d8+4]]}} {{Sneak attack (if applicable)=[[2d6]]}}
+&{template:default} {{name=Rapier}} {{Attack (roll+Dex+Pro)=[[1d20+4+3]]}} {{damage (roll+Dex)=[[1d8+4]]}} {{Sneak attack (if applicable)=[[3d6]]}}
 ```
 ### Dagger (stab)
-- Attack roll: adding 4 for dexterity and 2 for proficiency
+- Attack roll: adding 4 for dexterity and 3 for proficiency
 - Damage roll: adding 4 for dexterity
-- Sneak attack: 2d6 at 4th level
+- Sneak attack: 3d6 at 5th level
 ```
-&{template:default} {{name=Dagger (stab)}} {{Attack (roll+Dex+Pro)=[[1d20+4+2]]}} {{damage=[[1d4+4]]}} {{Sneak attack (if applicable)=[[2d6]]}}
+&{template:default} {{name=Dagger (stab)}} {{Attack (roll+Dex+Pro)=[[1d20+4+3]]}} {{damage=[[1d4+4]]}} {{Sneak attack (if applicable)=[[3d6]]}}
 ```
 ### Dagger (thrown)
-- Attack roll: adding 4 for dexterity and 2 for proficiency
+- Attack roll: adding 4 for dexterity and 3 for proficiency
 - Damage roll: subtracting 1 for strength
-- Sneak attack: 2d6 at 4th level
+- Sneak attack: 3d6 at 5th level
 ```
-&{template:default} {{name=Dagger (thrown)}} {{Attack (roll+Str+Pro)=[[1d20-1+2]]}} {{damage=[[1d4-1]]}} {{Sneak attack (if applicable)=[[2d6]]}}
+&{template:default} {{name=Dagger (thrown)}} {{Attack (roll+Str+Pro)=[[1d20-1+3]]}} {{damage=[[1d4-1]]}} {{Sneak attack (if applicable)=[[3d6]]}}
 ```
 
 ## Sylceran
