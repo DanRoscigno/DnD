@@ -20,7 +20,8 @@ race = "Stout Halfling"
 alignment = "Neutral"
 
 xp = 0
-hp_max = (8 + 3) + (5 + 3) + (4 + 3) + (4 + 3) + (5 + 4)
+# hit points are 1d8 + Constitution modifier at each level
+hp_max = (8 + 3) + (5 + 3) + (4 + 3) + (4 + 3) + (5 + 3)
 inspiration = 0  # integer inspiration value
 
 # Ability Scores.  The Adventure League DM had me use this calculator:
@@ -29,12 +30,15 @@ inspiration = 0  # integer inspiration value
 # allocate a total of 24 more points as you like.  Talk to Mark about
 # what he suggests.  Note: The calculator linked above will automatically
 # add points based on your chosen race and sub-race.
-strength = 8 + 0
-dexterity = 16 + 2
-constitution = 15 + 1 + 2
-intelligence = 14 + 0
-wisdom = 12 + 0
-charisma = 8 + 0
+
+strength = 8
+# Dex is +2 as a Halfling and another +2 as Level 4 Rogue
+dexterity = 14 + 2 + 2
+# Con is +1 as a Stout Halfling
+constitution = 15 + 1
+intelligence = 14
+wisdom = 12
+charisma = 8
 
 # Select what skills you're proficient with
 skill_proficiencies = ('acrobatics', 'investigation', 'perception', 'deception', 'sleight of hand', 'stealth')
