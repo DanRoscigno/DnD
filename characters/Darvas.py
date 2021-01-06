@@ -70,7 +70,11 @@ ep = 0
 # 15 for being a criminal
 # 4 treasure points from Adventurer's League (1 point = 50gp) 
 # - 10 to buy shield
-gp = (4 + 3 + 3 + 1) * 10 + 15 + (4 * 50) - 10
+# + 16 gold from Harbin Wester
+# - 2 gold for two quivers of arrows
+# - 10 gold for rations
+# - 100 gold to buy two healing potions
+gp = (4 + 3 + 3 + 1) * 10 + 15 + (4 * 50) - 10 + 16 - 2 - 10 - 100
 pp = 0
 
 # See equipment packs on page 151 of PHB
@@ -101,20 +105,22 @@ pp = 0
 # dark common clothes with hood
 # 15 gp in belt pouch
 # rapier
-# shortbow and 20 arrows
+# shortbow and 40 arrows
 # Leather armor
 # two daggers
 # thieves tools
 
-weapons = ('rapier', 'dagger', 'shortbow')
+weapons = ('rapier', 'shortsword', 'shortbow', 'dagger')
 magic_items = ()  # Example: ('ring of protection',)
 armor = "leather armor"
 shield = "shield"
-equipment = ( """--Shortbow and 20 arrows 
+equipment = ( """--Shortbow and 40 arrows 
 
 --extra dagger
 
 --magic potion of unknown type
+
+--2 healing potions
 
 --magic sword with Dwarvish runes
 
