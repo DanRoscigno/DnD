@@ -76,9 +76,10 @@ ep = 0
 # - 10 to buy shield
 # + 16 gold from Harbin Wester
 # - 2 gold for two quivers of arrows
+# - 40 to upgrade leather armor to studded leather (trade in leather)
 # - 10 gold for rations
 # - 100 gold to buy two healing potions
-gp = (4 + 3 + 3 + 1) * 10 + 15 + (4 * 50) - 10 + 16 - 2 - 10 - 100
+gp = (4 + 3 + 3 + 1) * 10 + 15 + (4 * 50) - 10 + 16 - 2 - 40  - 10 - 100
 pp = 0
 
 # See equipment packs on page 151 of PHB
@@ -116,7 +117,7 @@ pp = 0
 
 weapons = ('rapier', 'shortsword', 'shortbow', 'dagger')
 magic_items = ()  # Example: ('ring of protection',)
-armor = "leather armor"
+armor = "studded leather armor"
 shield = "shield"
 equipment = ( """--Shortbow and 40 arrows 
 
