@@ -182,9 +182,10 @@ wild_shapes = ()  # Ex: ('ape', 'wolf', 'ankylosaurus')
 
 # Backstory
 # Describe your backstory here
-personality_traits = """Attack (action)/move/Hide (bonus action) to make a ranged attack.
+personality_traits = """Ranged: Attack (action)/move/Hide (bonus action)
 
-Hide (bonus action)/move/Attack (action) to stalk and pounce."""
+
+Stalk: Hide (bonus action)/move/Attack (action)"""
 
 ideals = """I'm loyal to my friends, not to any ideals, and
 everyone else can take a trip down the Styx for all I
