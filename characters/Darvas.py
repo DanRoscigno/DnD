@@ -182,9 +182,9 @@ wild_shapes = ()  # Ex: ('ape', 'wolf', 'ankylosaurus')
 
 # Backstory
 # Describe your backstory here
-personality_traits = """The first thing I do in a new place is
-note the locations of everything valuable—or where such things
-could be hidden."""
+personality_traits = """Attack (action)/move/Hide (bonus action) to make a ranged attack.
+
+Hide (bonus action)/move/Attack (action) to stalk and pounce."""
 
 ideals = """I'm loyal to my friends, not to any ideals, and
 everyone else can take a trip down the Styx for all I
