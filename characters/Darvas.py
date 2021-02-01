@@ -116,7 +116,7 @@ pp = 0
 # thieves tools
 
 weapons = ('rapier', 'shortsword', 'shortbow', 'dagger')
-magic_items = ('cloak of druidane')  # Example: ('ring of protection',)
+magic_items = ('cloak of druidane', 'BlueStingSword')  # Example: ('ring of protection',)
 armor = "studded leather armor"
 shield = "shield"
 equipment = ( """
@@ -128,9 +128,6 @@ extra dagger
 magic potion of unknown type
 
 2 healing potions
-
-magic sword with Dwarvish runes
-
 
 thieves’ tools
 
