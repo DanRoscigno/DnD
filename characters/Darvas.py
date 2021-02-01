@@ -119,41 +119,42 @@ weapons = ('rapier', 'shortsword', 'shortbow', 'dagger')
 magic_items = ('cloak of druidane')  # Example: ('ring of protection',)
 armor = "studded leather armor"
 shield = "shield"
-equipment = ( """--Shortbow and 40 arrows 
+equipment = ( """
 
---extra dagger
+Shortbow and 40 arrows 
 
---magic potion of unknown type
+extra dagger
 
---2 healing potions
+magic potion of unknown type
 
---magic sword with Dwarvish runes
+2 healing potions
 
---camo cape from Lorca friends
+magic sword with Dwarvish runes
 
---thieves’ tools
 
---backpack and pouch
+thieves’ tools
 
---800 ball bearings
+backpack and pouch
 
---10 feet of string
+800 ball bearings
+
+10 feet of string
  
---bell
+bell
 
---5 candles + tinderbox
+5 candles + tinderbox
 
---crowbar
+crowbar
 
---hammer + 10 pitons
+hammer + 10 pitons
 
---50 feet of hempen rope
+50 feet of hempen rope
 
---hooded lantern + 2 flasks oil
+hooded lantern + 2 flasks oil
 
---5 days rations + waterskin
+5 days rations + waterskin
 
---dark common clothes w/ hood""")
+dark common clothes w/ hood""")
 
 attacks_and_spellcasting = """--ATK Bonus=prof bonus + Dex
 
