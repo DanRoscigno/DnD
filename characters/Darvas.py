@@ -116,7 +116,7 @@ pp = 0
 # thieves tools
 
 weapons = ('rapier', 'shortsword', 'shortbow', 'dagger')
-magic_items = ('cloak of elvenkind')  # Example: ('ring of protection',)
+magic_items = ('cloak of druidane')  # Example: ('ring of protection',)
 armor = "studded leather armor"
 shield = "shield"
 equipment = ( """--Shortbow and 40 arrows 
