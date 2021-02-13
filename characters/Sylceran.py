@@ -112,7 +112,9 @@ attacks_and_spellcasting = """Shillelagh and whack with staff. If there are mult
 spells_prepared = ('shillelagh', 'shape water', 'cure wounds', 'entangle', 'thunderwave', 'detect magic', 'detect poison and disease')  # Todo: Learn some spells
 
 # Which spells have not been prepared
-__spells_unprepared = ('Animal Friendship', 'Charm Person', 'Create or Destroy Water', 'Faerie Fire', 'Fog Cloud', 'Goodberry', 'Healing Word', 'jump', 'Longstrider', 'Purify Food and Drink', 'Speak with Animals') 
+__spells_unprepared = ()
+# This is the list of 1st level spells that I do not know
+#__spells_unprepared = ('Animal Friendship', 'Charm Person', 'Create or Destroy Water', 'Faerie Fire', 'Fog Cloud', 'Goodberry', 'Healing Word', 'jump', 'Longstrider', 'Purify Food and Drink', 'Speak with Animals') 
 # all spells known
 spells = spells_prepared + __spells_unprepared
 
