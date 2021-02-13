@@ -105,11 +105,14 @@ attacks_and_spellcasting = """Shillelagh and whack with staff. If there are mult
 
 # List of known spells
 # Example: spells_prepared = ('magic missile', 'mage armor')
-spells_prepared = ('shillelagh', 'shape water', 'cure wounds')  # Todo: Learn some spells
+
+# You can prepare this number of spells:
+# Wisdom modifier + Druid level.  For example, with a Wisdom mod of +3 at level 2
+# prepare 5 spells
+spells_prepared = ('shillelagh', 'shape water', 'cure wounds', 'entangle', 'thunderwave', 'detect magic', 'detect poison and disease')  # Todo: Learn some spells
 
 # Which spells have not been prepared
-__spells_unprepared = ('entangle', 'thunderwave')
-
+__spells_unprepared = ('Animal Friendship', 'Charm Person', 'Create or Destroy Water', 'Faerie Fire', 'Fog Cloud', 'Goodberry', 'Healing Word', 'jump', 'Longstrider', 'Purify Food and Drink', 'Speak with Animals') 
 # all spells known
 spells = spells_prepared + __spells_unprepared
 
