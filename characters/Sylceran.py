@@ -1,4 +1,4 @@
-"""This file describes the heroic adventurer druidelf.
+"""This file describes the heroic adventurer Sylceran.
 
 It's used primarily for saving characters from create-character,
 where there will be many missing sections.
@@ -15,15 +15,15 @@ player_name = "Dan R"
 
 # Be sure to list Primary class first
 classes = ['Druid']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [1]  # ex: [10] or [3, 2]
-subclasses = ['']  # ex: ['Necromacy'] or ['Thief', None]
+levels = [2]  # ex: [10] or [3, 2]
+subclasses = ["Circle of the Shepherd"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Smuggler"
 race = "Wood Elf"
 alignment = "Lawful good"
 
 xp = 0
-# hit points are a D8 plus Constitution bonus
-hp_max = 8 + 2
+# hit points are a D8 (or 5) plus Constitution bonus
+hp_max = 8 + 2 + 5 + 2
 inspiration = False  # boolean inspiration value
 
 # Ability Scores
