@@ -22,7 +22,7 @@ race = "Wood Elf"
 alignment = "Neutral good"
 
 xp = 0
-hp_max = 13
+hp_max = 8 + 2 + 5 + 2
 inspiration = False  # boolean inspiration value
 
 # Ability Scores
@@ -81,10 +81,10 @@ or uses spells."""
 
 # List of known spells
 # Example: spells_prepared = ('magic missile', 'mage armor')
-spells_prepared = ()  # Todo: Learn some spells
+spells_prepared = ('shillelagh', 'shape water', 'cure wounds')  # Todo: Learn some spells
 
 # Which spells have not been prepared
-__spells_unprepared = ()
+__spells_unprepared = ('entangle', 'thunderwave', 'guiding bolt')
 
 # all spells known
 spells = spells_prepared + __spells_unprepared
