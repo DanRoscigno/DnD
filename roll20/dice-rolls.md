@@ -37,6 +37,16 @@ Make sure to update these templates when Darvas or Sylceran up-level
 &{template:default} {{name=Dagger (thrown)}} {{Attack (roll+Str+Pro)=[[1d20-1+3]]}} {{damage=[[1d4-1]]}} {{Sneak attack (if applicable)=[[3d6]]}}
 ```
 
+### Stealth check
+```
+&{template:default} {{name=Stealth Check}} {{D20 + DEX + double Proficiency=[[1d20+4+3 +3]]}} {{If wearing Druidane Cloak add +1=[[1]]}}
+```
+
+## Dex save
+```
+&{template:default} {{name=Dex Saving}} {{D20 + DEX + Proficiency=[[1d20+4+3]]}}
+```
+
 ## Sylceran
 
 ### Staff with Shillelagh
