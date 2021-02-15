@@ -180,17 +180,15 @@ wild_shapes = ()  # Ex: ('ape', 'wolf', 'ankylosaurus')
 
 # Backstory
 # Describe your backstory here
-personality_traits = """Ranged: Attack (action)/move/Hide (bonus action)
+personality_traits = """Ranged: Attack (action)/move/Hide (bonus action)"""
 
 
-Stalk: Hide (bonus action)/move/Attack (action)"""
 
 ideals = """DODGE when attacked! (reaction)"""
 
 bonds = """Dash, Hide, or Disengage as bonus action"""
 
-flaws = """I have a "tell" that reveals when I'm lying.
-"""
+flaws = """Stalk: Hide (bonus action)/move/Attack (action)"""
 
 features_and_traits = """ STOUT RESILIENCE
 Source: Race (Stout Halfling)
