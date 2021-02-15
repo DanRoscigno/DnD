@@ -185,12 +185,9 @@ personality_traits = """Ranged: Attack (action)/move/Hide (bonus action)
 
 Stalk: Hide (bonus action)/move/Attack (action)"""
 
-ideals = """I'm loyal to my friends, not to any ideals, and
-everyone else can take a trip down the Styx for all I
-care. (Neutral)"""
+ideals = """DODGE when attacked! (reaction)"""
 
-bonds = """I'm trying to pay off an old debt I owe to a generous
-benefactor."""
+bonds = """Dash, Hide, or Disengage as bonus action"""
 
 flaws = """I have a "tell" that reveals when I'm lying.
 """
