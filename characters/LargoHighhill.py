@@ -1,4 +1,4 @@
-"""This file describes the heroic adventurer Charles.
+"""This file describes the heroic adventurer Largo Highhill.
 
 It's used primarily for saving characters from create-character,
 where there will be many missing sections.
@@ -10,7 +10,7 @@ sheet by running ``makesheets`` from the command line.
 
 dungeonsheets_version = "0.10.2"
 
-name = "Charles"
+name = "Largo Highhill"
 player_name = "Dan R"
 
 # Be sure to list Primary class first
