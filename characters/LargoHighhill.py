@@ -22,7 +22,7 @@ race = "Lightfoot Halfling"
 alignment = "Neutral good"
 
 xp = 0
-hp_max = 9
+hp_max = 6 + 3 + 1 + 3
 inspiration = False  # boolean inspiration value
 
 # Ability Scores
