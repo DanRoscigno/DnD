@@ -65,7 +65,7 @@ languages = """[choose one], [choose one], Common, Halfling"""
 cp = 0
 sp = 0
 ep = 0
-gp = 0
+gp = 15
 pp = 0
 
 # TODO: Put your equipped weapons and armor here
@@ -74,7 +74,13 @@ magic_items = ()  # Example: ('ring of protection',)
 armor = "None"  # Eg "leather armor"
 shield = "None"  # Eg "shield"
 
-equipment = """small bottle w/ dead sprite"""
+equipment = """- small bottle w/ dead sprite
+
+- bag of holding
+
+- component pouch
+
+"""
 
 attacks_and_spellcasting = """TODO: Describe how your character usually attacks
 or uses spells."""
