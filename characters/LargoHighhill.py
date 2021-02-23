@@ -104,11 +104,11 @@ infusions = () # Ex: ('repeating shot', 'replicate magic item')
 # Describe your backstory here
 personality_traits = """Rosc: Barkeep at Sassy Christy.  Half Orc.  Does not like Elves."""
 
-ideals = """Vattar Kasari: Old friend / adventurer.  Campaigned with Cyris and myself.  I thought that Vattar had killed Malazar, but he just told me that Malazar is alive, missing an arm, and working with a necromancer from Thay and the Zentarum (a black network of thieves, wizards, and spies)"""
+features_and_traits = """Vattar Kasari: Old friend / adventurer.  Campaigned with Cyris and myself.  I thought that Vattar had killed Malazar, but he just told me that Malazar is alive, missing an arm, and working with a necromancer from Thay and the Zentarum (a black network of thieves, wizards, and spies)"""
 
 bonds = """TODO: Describe your character's commitments or ongoing quests."""
 
 flaws = """TODO: Describe your character's interesting flaws."""
 
-features_and_traits = """TODO: Describe other features and abilities your
+ideals= """TODO: Describe other features and abilities your
 character has."""
