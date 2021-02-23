@@ -82,7 +82,9 @@ equipment = """- small bottle w/ dead sprite
 
 """
 
-attacks_and_spellcasting = """Davian: Best friend.  Has healing ability"""
+attacks_and_spellcasting = """ """
+
+ideals = """Davian: Best friend.  Has healing ability"""
 
 # List of known spells
 # Example: spells_prepared = ('magic missile', 'mage armor')
@@ -94,12 +96,6 @@ __spells_unprepared = ()
 # all spells known
 spells = spells_prepared + __spells_unprepared
 
-# Wild shapes for Druid
-wild_shapes = ()  # Ex: ('ape', 'wolf', 'ankylosaurus')
-
-# Infusions for Artificer
-infusions = () # Ex: ('repeating shot', 'replicate magic item')
-
 # Backstory
 # Describe your backstory here
 personality_traits = """Rosc: Barkeep at Sassy Christy.  Half Orc.  Does not like Elves."""
@@ -110,5 +106,3 @@ bonds = """TODO: Describe your character's commitments or ongoing quests."""
 
 flaws = """TODO: Describe your character's interesting flaws."""
 
-ideals= """TODO: Describe other features and abilities your
-character has."""
