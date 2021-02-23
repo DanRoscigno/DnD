@@ -82,8 +82,7 @@ equipment = """- small bottle w/ dead sprite
 
 """
 
-attacks_and_spellcasting = """TODO: Describe how your character usually attacks
-or uses spells."""
+attacks_and_spellcasting = """Davian: Best friend.  Has healing ability"""
 
 # List of known spells
 # Example: spells_prepared = ('magic missile', 'mage armor')
@@ -103,9 +102,9 @@ infusions = () # Ex: ('repeating shot', 'replicate magic item')
 
 # Backstory
 # Describe your backstory here
-personality_traits = """TODO: Describe how your character behaves, interacts with others"""
+personality_traits = """Rosc: Barkeep at Sassy Christy.  Half Orc.  Does not like Elves."""
 
-ideals = """TODO: Describe what values your character believes in."""
+ideals = """Vattar Kasari: Old friend / adventurer.  Campaigned with Cyris and myself.  I thought that Vattar had killed Malazar, but he just told me that Malazar is alive, missing an arm, and working with a necromancer from Thay and the Zentarum (a black network of thieves, wizards, and spies)"""
 
 bonds = """TODO: Describe your character's commitments or ongoing quests."""
 
