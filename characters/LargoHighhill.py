@@ -22,7 +22,8 @@ race = "Lightfoot Halfling"
 alignment = "Neutral good"
 
 xp = 0
-hp_max = 6 + 2 + 2 + 2
+# HP is 1D6 + Con + 1 for Draconic Resilience
+hp_max = 6 + 2 + 1 + 2 + 2 + 1
 inspiration = False  # boolean inspiration value
 
 # Ability Scores
@@ -82,7 +83,7 @@ equipment = """- small bottle w/ dead sprite
 
 """
 
-attacks_and_spellcasting = """ """
+attacks_and_spellcasting = """HP is 1D6 + Con + 1 for Draconic Resilience"""
 
 ideals = """Davian: Best friend.  Has healing ability"""
 
