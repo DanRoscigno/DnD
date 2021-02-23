@@ -100,7 +100,7 @@ spells = spells_prepared + __spells_unprepared
 # Describe your backstory here
 personality_traits = """Rosc: Barkeep at Sassy Christy.  Half Orc.  Does not like Elves."""
 
-features_and_traits = """Vattar Kasari: Old friend / adventurer.  Campaigned with Cyris and myself.  I thought that Vattar had killed Malazar, but he just told me that Malazar is alive, missing an arm, and working with a necromancer from Thay and the Zentarum (a black network of thieves, wizards, and spies)"""
+features_and_traits = """Vattar Kasari: Old friend / adventurer.  Campaigned with Cyris and myself.  I thought that Vattar had killed Malazar, but he just told me that Malazar is alive, missing an arm, and working with a necromancer from Thay and the Zhentarim (a black network of thieves, wizards, and spies)"""
 
 bonds = """TODO: Describe your character's commitments or ongoing quests."""
 
