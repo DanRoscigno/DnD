@@ -88,8 +88,7 @@ attacks_and_spellcasting = """HP is 1D6 + Con + 1 for Draconic Resilience"""
 ideals = """Davian: Best friend.  Has healing ability"""
 
 # List of known spells
-# Example: spells_prepared = ('magic missile', 'mage armor')
-spells_prepared = ('dancing lights', 'mage hand', 'detect magic', 'chill touch', 'fire bolt', 'absorb elements', 'magic missile')  # Todo: Learn some spells
+spells_prepared = ('mage hand', 'detect magic', 'chill touch', 'fire bolt', 'absorb elements', 'magic missile')  # Todo: Learn some spells
 
 # Which spells have not been prepared
 __spells_unprepared = ()
