@@ -59,7 +59,7 @@ weapon_proficiencies = ()  # ex: ('shortsword', 'quarterstaff')
 _proficiencies_text = ()  # ex: ("thieves' tools",)
 
 # Proficiencies and languages
-languages = """[choose one], [choose one], Common, Halfling"""
+languages = """Draconic, Elvish, Dwarvish, Common, Halfling"""
 
 # Inventory
 # TODO: Get yourself some money
