@@ -28,11 +28,11 @@ inspiration = False  # boolean inspiration value
 
 # Ability Scores
 strength = 13
-dexterity = 14
+dexterity = 12 + 2 # +2 for Halfling
 constitution = 15
 intelligence = 11
 wisdom = 11
-charisma = 16
+charisma = 15 + 1 # +1 for Lightfoot Halfling
 
 # Select what skills you're proficient with
 # ex: skill_proficiencies = ('athletics', 'acrobatics', 'arcana')
@@ -102,7 +102,7 @@ personality_traits = """Rosc: Barkeep at Sassy Christy.  Half Orc.  Does not lik
 
 features_and_traits = """Vattar Kasari: Old friend / adventurer.  Campaigned with Cyris and myself.  I thought that Vattar had killed Malazar, but he just told me that Malazar is alive, missing an arm, and working with a necromancer from Thay and the Zhentarim (a black network of thieves, wizards, and spies)"""
 
-bonds = """TODO: Describe your character's commitments or ongoing quests."""
+bonds = """At 4th, 8th, 12th, 16th, & 19th level, increase one ability score of your choice by 2, or two ability scores by 1."""
 
 flaws = """TODO: Describe your character's interesting flaws."""
 
