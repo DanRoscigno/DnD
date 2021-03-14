@@ -80,16 +80,12 @@
     [[ shape.constitution.value ]] ([[ shape.constitution.modifier|mod_str ]]) \\
   \end{tabular}
 
-    [% for skill in character.skill_proficiencies|sort(attribute="skill_name") %]%
-    [[ skill ]] [% if not loop.last %], [% endif %]% \\
-    [% endfor %]%
-
   \begin{tabular}{c | c | c}
     INT & WIS & CHA \\
     \hline
-    [[ character.intelligence.value ]] ([[ character.intelligence.modifier|mod_str ]]) &
-    [[ character.wisdom.value ]] ([[ character.wisdom.modifier|mod_str ]]) &
-    [[ character.charisma.value ]] ([[ character.charisma.modifier|mod_str ]]) \\
+    [[ shape.intelligence.value ]] ([[ shape.intelligence.modifier|mod_str ]]) &
+    [[ shape.wisdom.value ]] ([[ shape.wisdom.modifier|mod_str ]]) &
+    [[ shape.charisma.value ]] ([[ shape.charisma.modifier|mod_str ]]) \\
   \end{tabular}
 
   \vspace{0.2cm}
