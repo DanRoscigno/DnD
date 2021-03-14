@@ -119,7 +119,7 @@ __spells_unprepared = ()
 spells = spells_prepared + __spells_unprepared
 
 # Wild shapes for Druid
-wild_shapes = ('ape', 'wolf', 'ankylosaurus')  # Ex: ('ape', 'wolf', 'ankylosaurus')
+wild_shapes = ('elk', 'wolf', 'ankylosaurus')  # Ex: ('ape', 'wolf', 'ankylosaurus')
 
 # Infusions for Artificer
 infusions = () # Ex: ('repeating shot', 'replicate magic item')
