@@ -5,6 +5,11 @@ the character sheet by running ``makesheets -F filename.py``
 from the command line.
 
 """
+from dungeonsheets import mechanics, import_homebrew
+
+# Load the module containing the homebrew content.
+campaign = import_homebrew("homebrew_campaign.py")
+
 
 dungeonsheets_version = "0.9.4"
 
@@ -114,6 +119,10 @@ pp = 0
 # Leather armor
 # two daggers
 # thieves tools
+
+class DruidaneCloak(mechanics.Shield):
+    name = "Druidane cloak"
+    base_armor_class = 1
 
 weapons = ('spear', 'rapier', 'shortsword', 'shortbow', 'dagger')
 magic_items = ('cloak of druidane', 'BlueStingSword')  # Example: ('ring of protection',)
