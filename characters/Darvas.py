@@ -13,6 +13,10 @@ campaign = import_homebrew("homebrew_campaign.py")
 
 dungeonsheets_version = "0.9.4"
 
+class RobeOfBreadSummoning(mechanics.MagicItem):
+    """Shamefully stolen from the "D&D minus" podcast."""
+    name = "Robe of Bread Summoning"
+
 name = "Darvas"
 player_name = "Dan R"
 
@@ -125,7 +129,7 @@ class DruidaneCloak(mechanics.MagicItem):
     name = "Druidane cloak"
 
 weapons = ('spear', 'rapier', 'shortsword', 'shortbow', 'dagger')
-magic_items = ('DruidaneCloak', 'BlueStingSword')  # Example: ('ring of protection',)
+magic_items = (DruidaneCloak, 'BlueStingSword')  # Example: ('ring of protection',)
 armor = "studded leather armor"
 shield = "shield"
 equipment = ( """
