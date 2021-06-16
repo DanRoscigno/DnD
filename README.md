@@ -1,6 +1,11 @@
 # DnD
 
 Uses [dungeonsheets](https://github.com/canismarko/dungeon-sheets)
+To update: 
+```
+sudo pip3 install \
+  https://github.com/canismarko/dungeon-sheets/archive/refs/heads/master.zip
+```
 
 Uses [DND 5E LaTeX Template](https://github.com/rpgtex/DND-5e-LaTeX-Template)
 
