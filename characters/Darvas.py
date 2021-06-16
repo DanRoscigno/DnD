@@ -68,8 +68,29 @@ features = ()
 # feature_choices = ('Archery',)
 feature_choices = ()
 
+class BlueSting(mechanics.Weapon):
+    name = "Blue Sting"
+    cost = "1000 gp"
+    base_damage = "1d6"
+    attack_bonus = 1
+    damage_bonus = 1
+    damage_type = "p"
+    weight = 1
+    ability = "dexterity"
+
+class MagicSpear(mechanics.Weapon):
+    name = "Magic Spear"
+    cost = "1000 gp"
+    base_damage = "1d6"
+    attack_bonus = 1
+    damage_bonus = 2
+    damage_type = "p"
+    weight = 1
+    properties = "Thrown (range 20/60), versatile (1d8)"
+    ability = "dexterity"
+
 # Weapons/other proficiencies not given by class/race/background
-weapon_proficiencies = ()
+weapon_proficiencies = (BlueSting, MagicSpear)
 _proficiencies_text = ("Dice set",)
 
 # Proficiencies and languages
@@ -127,27 +148,6 @@ pp = 0
 class DruidaneCloak(mechanics.MagicItem):
     """Foo."""
     name = "Druidane cloak"
-
-class BlueSting(mechanics.Weapon):
-    name = "Blue Sting"
-    cost = "1000 gp"
-    base_damage = "1d6"
-    attack_bonus = 1
-    damage_bonus = 1
-    damage_type = "p"
-    weight = 1
-    ability = "dexterity"
-
-class MagicSpear(mechanics.Weapon):
-    name = "Magic Spear"
-    cost = "1000 gp"
-    base_damage = "1d6"
-    attack_bonus = 1
-    damage_bonus = 2
-    damage_type = "p"
-    weight = 1
-    properties = "Thrown (range 20/60), versatile (1d8)"
-    ability = "dexterity"
 
 
 weapons = (MagicSpear, 'rapier', BlueSting, 'shortbow', 'dagger')
