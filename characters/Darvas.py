@@ -99,7 +99,7 @@ pp = 0
 # equipment = """A crowbar, a set of dark common clothes
 # including a hood, and a belt pouch containing my coins"""
 #
-# Fom the above:
+# From the above:
 # Burglar's Pack: a backpack, a bag of 1,000 ball bearings, 
 # 10 feet of string, a bell, 5 candles, a crowbar, a hammer, 
 # 10 pitons, a hooded lantern, 2 flasks of oil, 5 days rations, 
@@ -115,7 +115,7 @@ pp = 0
 # two daggers
 # thieves tools
 
-weapons = ('rapier', 'shortsword', 'shortbow', 'dagger')
+weapons = ('spear', 'rapier', 'shortsword', 'shortbow', 'dagger')
 magic_items = ('cloak of druidane', 'BlueStingSword')  # Example: ('ring of protection',)
 armor = "studded leather armor"
 shield = "shield"
@@ -123,11 +123,13 @@ equipment = ( """
 
 Shortbow and 40 arrows 
 
+Magic spear (+1 hit, +2 damage)
+
 extra dagger
 
 magic potion of unknown type
 
-2 healing potions
+0 healing potions
 
 thieves’ tools
 
@@ -154,6 +156,8 @@ hooded lantern + 2 flasks oil
 dark common clothes w/ hood""")
 
 attacks_and_spellcasting = """--ATK Bonus=prof bonus + Dex
+
+--Magic spear +1 to hit, 1D6 +Dex +2 damage
 
 --Damage=roll + Dex on finesse & range weapon.
 
