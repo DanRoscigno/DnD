@@ -128,6 +128,16 @@ class DruidaneCloak(mechanics.MagicItem):
     """Foo."""
     name = "Druidane cloak"
 
+class BlueSting(mechanics.Weapon):
+    name = "Blue Sting"
+    cost = "1000 gp"
+    base_damage = "1d6"
+    attack_bonus = 1
+    damage_bonus = 1
+    damage_type = "p"
+    weight = 1
+    ability = "dexterity"
+
 class MagicSpear(mechanics.Weapon):
     name = "Magic Spear"
     cost = "1000 gp"
@@ -140,8 +150,8 @@ class MagicSpear(mechanics.Weapon):
     ability = "dexterity"
 
 
-weapons = (MagicSpear, 'rapier', 'shortsword', 'shortbow', 'dagger')
-magic_items = (DruidaneCloak, 'BlueStingSword')  # Example: ('ring of protection',)
+weapons = (MagicSpear, 'rapier', BlueSting, 'shortbow', 'dagger')
+magic_items = (DruidaneCloak, ) # Example: ('ring of protection',)
 armor = "studded leather armor"
 shield = "shield"
 equipment = ( """
