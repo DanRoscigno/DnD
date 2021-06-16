@@ -120,12 +120,12 @@ pp = 0
 # two daggers
 # thieves tools
 
-class DruidaneCloak(mechanics.Shield):
+class DruidaneCloak(mechanics.MagicItem):
+    """Foo."""
     name = "Druidane cloak"
-    base_armor_class = 1
 
 weapons = ('spear', 'rapier', 'shortsword', 'shortbow', 'dagger')
-magic_items = ('cloak of druidane', 'BlueStingSword')  # Example: ('ring of protection',)
+magic_items = ('DruidaneCloak', 'BlueStingSword')  # Example: ('ring of protection',)
 armor = "studded leather armor"
 shield = "shield"
 equipment = ( """
