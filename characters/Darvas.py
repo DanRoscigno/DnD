@@ -156,9 +156,11 @@ armor = "studded leather armor"
 shield = "shield"
 equipment = ( """
 
-Shortbow and 40 arrows 
+Shortbow and 30 arrows 
 
 Magic spear (+1 hit, +2 damage)
+
+Two vials of Cryovane's blood
 
 extra dagger
 
