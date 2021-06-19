@@ -78,8 +78,11 @@ class BlueSting(mechanics.Weapon):
     weight = 1
     ability = "dexterity"
 
-class MagicSpear(mechanics.Weapon, mechanics.MagicItem):
+class MagicSpearMagic(mechanics.MagicItem):
     """Shamefully stolen from the "D&D minus" podcast."""
+    name = "Magic Spear"
+
+class MagicSpearWeapon(mechanics.Weapon):
     name = "Magic Spear"
     cost = "1000 gp"
     base_damage = "1d6"
@@ -91,7 +94,7 @@ class MagicSpear(mechanics.Weapon, mechanics.MagicItem):
     ability = "dexterity"
 
 # Weapons/other proficiencies not given by class/race/background
-weapon_proficiencies = (BlueSting, MagicSpear)
+weapon_proficiencies = (BlueSting, MagicSpearWeapon)
 _proficiencies_text = ("Dice set",)
 
 # Proficiencies and languages
@@ -147,11 +150,11 @@ pp = 0
 # thieves tools
 
 class DruidaneCloak(mechanics.MagicItem):
-    """Foo."""
+    """A gift from the Druidane after the party helped them rid Lorca and the surrounding area of the servant of Talos and his Orc followers.  When worn with hood up the cloak adds +1 to stealth."""
     name = "Druidane cloak"
 
 
-weapons = (MagicSpear, 'rapier', BlueSting, 'shortbow', 'dagger')
+weapons = (MagicSpearWeapon, 'rapier', BlueSting, 'shortbow', 'dagger')
 magic_items = (DruidaneCloak, ) # Example: ('ring of protection',)
 armor = "studded leather armor"
 shield = "shield"
