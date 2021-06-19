@@ -155,7 +155,7 @@ class DruidaneCloak(mechanics.MagicItem):
 
 
 weapons = (MagicSpearWeapon, 'rapier', BlueSting, 'shortbow', 'dagger')
-magic_items = (DruidaneCloak, ) # Example: ('ring of protection',)
+magic_items = (DruidaneCloak, MagicSpearMagic ) # Example: ('ring of protection',)
 armor = "studded leather armor"
 shield = "shield"
 equipment = ( """
