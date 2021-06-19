@@ -78,7 +78,7 @@ class BlueSting(mechanics.Weapon):
     weight = 1
     ability = "dexterity"
 
-class MagicSpear(mechanics.Weapon):
+class MagicSpear(mechanics.Weapon, mechanics.MagicItem):
     name = "Magic Spear"
     cost = "1000 gp"
     base_damage = "1d6"
