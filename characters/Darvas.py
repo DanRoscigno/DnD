@@ -79,7 +79,9 @@ class BlueSting(mechanics.Weapon):
     ability = "dexterity"
 
 class MagicSpearMagic(mechanics.MagicItem):
-    """Shamefully stolen from the "D&D minus" podcast."""
+    """Looted from Cryovane's hoard.  The spear is 8' long and incredibly light.  
+
+Adds +1 to hit, and to damage."""
     name = "Magic Spear"
 
 class MagicSpearWeapon(mechanics.Weapon):
@@ -150,7 +152,9 @@ pp = 0
 # thieves tools
 
 class DruidaneCloak(mechanics.MagicItem):
-    """A gift from the Druidane after the party helped them rid Lorca and the surrounding area of the servant of Talos and his Orc followers.  When worn with hood up the cloak adds +1 to stealth."""
+    """A gift from the Druidane after the party helped them rid Lorca and the surrounding area of the servant of Talos and his Orc followers.
+
+When worn with hood up the cloak adds +1 to stealth."""
     name = "Druidane cloak"
 
 
