@@ -79,6 +79,7 @@ class BlueSting(mechanics.Weapon):
     ability = "dexterity"
 
 class MagicSpear(mechanics.Weapon, mechanics.MagicItem):
+    """Shamefully stolen from the "D&D minus" podcast."""
     name = "Magic Spear"
     cost = "1000 gp"
     base_damage = "1d6"
