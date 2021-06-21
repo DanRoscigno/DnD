@@ -168,7 +168,7 @@ When worn with hood up the cloak adds +1 to stealth."""
 
 
 weapons = (MagicSpearWeapon, 'rapier', BlueSting, 'shortbow', 'dagger')
-magic_items = (DruidaneCloak, MagicSpearMagic ) # Example: ('ring of protection',)
+magic_items = (BlueStingMagic,DruidaneCloak, MagicSpearMagic ) # Example: ('ring of protection',)
 armor = "studded leather armor"
 shield = "shield"
 equipment = ( """
