@@ -78,11 +78,19 @@ class BlueSting(mechanics.SimpleWeapon):
     weight = 1
     ability = "dexterity"
 
+class BlueStingMagic(mechanics.MagicItem):
+    """Glows blue in the presence of Orcs!
+
+Adds +1 to attack and damage."""
+    name = "Blue Sting"
+    type = "Weapon"
+
 class MagicSpearMagic(mechanics.MagicItem):
     """Looted from Cryovane's hoard.  The spear is 8' long and incredibly light.  
 
 Adds +1 to hit, and to damage."""
     name = "Magic Spear"
+    type = "Weapon"
 
 class MagicSpearWeapon(mechanics.SimpleWeapon):
     name = "Magic Spear"
@@ -156,6 +164,7 @@ class DruidaneCloak(mechanics.MagicItem):
 
 When worn with hood up the cloak adds +1 to stealth."""
     name = "Druidane cloak"
+    type = "Cloak"
 
 
 weapons = (MagicSpearWeapon, 'rapier', BlueSting, 'shortbow', 'dagger')
