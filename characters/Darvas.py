@@ -68,7 +68,7 @@ features = ()
 # feature_choices = ('Archery',)
 feature_choices = ()
 
-class BlueSting(mechanics.Weapon):
+class BlueSting(mechanics.SimpleWeapon):
     name = "Blue Sting"
     cost = "1000 gp"
     base_damage = "1d6"
@@ -84,7 +84,7 @@ class MagicSpearMagic(mechanics.MagicItem):
 Adds +1 to hit, and to damage."""
     name = "Magic Spear"
 
-class MagicSpearWeapon(mechanics.Weapon):
+class MagicSpearWeapon(mechanics.SimpleWeapon):
     name = "Magic Spear"
     cost = "1000 gp"
     base_damage = "1d6"
@@ -96,7 +96,7 @@ class MagicSpearWeapon(mechanics.Weapon):
     ability = "dexterity"
 
 # Weapons/other proficiencies not given by class/race/background
-weapon_proficiencies = (BlueSting, MagicSpearWeapon)
+weapon_proficiencies = ()
 _proficiencies_text = ("Dice set",)
 
 # Proficiencies and languages
