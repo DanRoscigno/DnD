@@ -112,7 +112,7 @@ languages = """Common, Halfling"""
 
 # Inventory
 cp = 0
-sp = 0
+sp = 50
 ep = 0
 # rolled 4+3+3+1 for starting gold
 # 15 for being a criminal
