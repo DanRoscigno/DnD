@@ -15,7 +15,7 @@ dungeonsheets_version = "0.9.4"
 
 class RobeOfBreadSummoning(mechanics.MagicItem):
     """Shamefully stolen from the "D&D minus" podcast."""
-    name = "Robe of Bread Summoning"
+    name = "Robe of Silly Summoning"
 
 name = "Darvas"
 player_name = "Dan R"
