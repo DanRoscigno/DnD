@@ -1,6 +1,8 @@
 Creating Sylceran, a level 2 Druid
 ==================================
 
+Here is [the sheet](https://github.com/DanRoscigno/DnD/blob/master/characters/Sylceran-OSE/OSE-char-sheet.pdf).
+
 Ability scores rolled
 ---------------------
 
@@ -44,7 +46,8 @@ I can use wood shields and leather armor as I am a Druid.
 
 Spells
 ---------------------
-At level 2 I get two level 1 spell slots per day.  The spells that I can use are:
+At level 2 I get two level 1 spell slots per day.  The spells that I
+can use are:
 
  - Animal friendship 
  - Detect danger
@@ -65,3 +68,39 @@ Hit points
 My hit dice is a D6, and I am level 2.  I get a +1 on hit dice
 because of my constitution.  So, my dice rolls of 5 and 3 with +1 on
 each level give me 10 hit points.
+
+Equipment
+----------
+
+I rolled 3D6 for initial gold, and the roll was a ten, or 100gp.
+
+I bought this gear:
+Rolled 100gp
+
+ - backpack                    5gp
+ - Wooden shield (AC +1)      10gp
+ - Leather armor (AC 7)       25gp
+ - mess kit + 14 rations      10gp
+ - 3 oil flasks and lantern   16gp
+ - 12 iron spikes and hammer   3gp
+ - tinderbox + 12 torches      5gp
+ - waterskin                   1gp
+ - 50 feet of rope             1gp
+ - 2 daggers                   3gp
+ - spear                       4gp
+ - sling                       2gp
+
+85gp cost for above, leaves me with 15gp.
+ 
+I also have the following:
+
+ - common clothes
+ - beatiful bottle w/ bit of Elverquiist
+ - boat (the S-Cargo)
+ - spyglass
+ - pirate flag
+ - bedroll 
+ - healing potion
+ - scroll (detect magic?)
+ - Herbalism kit
+ - 2 pair leather boots
