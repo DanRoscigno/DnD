@@ -1,6 +1,8 @@
-= Creating Sylceran, a level 2 Druid
+Creating Sylceran, a level 2 Druid
+==================================
 
-== Ability scores rolled
+Ability scores rolled
+---------------------
 
 I re-rolled two of the scores that had two ones in each of them.
 STR 8
