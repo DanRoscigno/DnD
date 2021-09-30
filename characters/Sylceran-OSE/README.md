@@ -5,12 +5,12 @@ Ability scores rolled
 ---------------------
 
 I re-rolled two of the scores that had two ones in each of them.
-STR 8
-INT 11
-WIS 8
-DEX 16
-CON 13
-CHA 10
+ - STR 8
+ - INT 11
+ - WIS 8
+ - DEX 16
+ - CON 13
+ - CHA 10
 
 Prime requisite
 ---------------------
@@ -21,12 +21,12 @@ Skills and abilities
 ---------------------
 
  - Low strength gives me a -1 on melee
- - High dexterity gives me a:
+ - High dexterity gives me:
     - +2 on missile 
     - +2 on AC 
     - +1 on initiative
  - Decent charisma gives me:
-    - max of 4 retainers:
+    - max of 4 retainers
     - retainer loyalty of 7
 
  - As a Druid I give the entire part a 5/6 chance of not getting lost.
@@ -40,7 +40,7 @@ as missile weapons.  The spear can also be used as a brace weapon and
 that gives me double damage against charging monsters if I brace the
 end against the ground.
 
-I can use wood shields, and leather armor as I am a Druid
+I can use wood shields and leather armor as I am a Druid.
 
 Spells
 ---------------------
