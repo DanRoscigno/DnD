@@ -1,7 +1,7 @@
 Creating Sylceran, a level 2 Druid
 ==================================
 
-Here is [the sheet](https://github.com/DanRoscigno/DnD/blob/master/characters/Sylceran-OSE/OSE-char-sheet.pdf).
+Here is [the sheet](https://github.com/DanRoscigno/DnD/blob/master/characters/Sylceran-OSE/Sylceran-sheet.jpg).
 
 Ability scores rolled
 ---------------------
