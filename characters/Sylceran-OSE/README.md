@@ -31,7 +31,7 @@ Skills and abilities
     - max of 4 retainers
     - retainer loyalty of 7
 
- - As a Druid I give the entire part a 5/6 chance of not getting lost.
+ - As a Druid I give the entire party a 5/6 chance of not getting lost.
  - I personally have +2 against lightning or fire damage.
 
 Weapons and armor
