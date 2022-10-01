@@ -41,3 +41,7 @@ was a big margin around the edges and adjusted.
 #### Page handling tab
 
 ![image](https://user-images.githubusercontent.com/25182304/193430024-a662459a-6ebd-47a0-8f45-8aa1c13e1431.png)
+
+#### Advanced tab
+
+![image](https://user-images.githubusercontent.com/25182304/193431751-55cba0e7-6435-41ff-98ab-87d266e15b55.png)
