@@ -1,0 +1,128 @@
+\documentclass{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc} 
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{graphicx}
+\usepackage{lipsum}
+\usepackage{microtype}
+\usepackage{yfonts,color}
+\usepackage[urw-garamond]{mathdesign}
+\usepackage[T1]{fontenc}
+
+
+\usepackage[paperwidth=210mm, paperheight=297mm, textwidth=160mm, textheight=240mm, bindingoffset=1cm]{geometry}
+
+
+% obliczenie szerokości lewego marginesu
+\usepackage{calc}
+\newlength{\lmargin}
+\setlength{\lmargin}{1in + \hoffset + \oddsidemargin}
+
+\usepackage{flowfram}
+
+\usepackage{color}
+
+\usepackage{tikz}
+
+
+% definicja ramek typu flow umieszczonych na stonie 1
+\newflowframe[1]{5cm}{27\baselineskip}{0cm}{0\baselineskip}[frame1-1a]
+\newflowframe[1]{5cm}{27\baselineskip}{5.5cm}{0\baselineskip}[frame1-2b]
+\newflowframe[1]{5cm}{27\baselineskip}{11cm}{0\baselineskip}[frame1-3c]
+
+%definicja ramek statycznych wstawianych na stronie 1
+\newstaticframe[1]{190mm}{19cm}{-20mm}{11.5cm}[frameS-1a]
+\newstaticframe[1]{10cm}{10\baselineskip}{0cm}{40\baselineskip}[frameS-1b]
+
+%definicja ramki dymamicznej wstawiania na stonie nieparzystej
+\newdynamicframe[odd]{2cm}{2cm}{-\lmargin}{6cm}[frameD-1a]
+%definicja ramki dymamicznej wstawiania na stonie parzystej
+\newdynamicframe[even]{2cm}{2cm}{\textwidth+\lmargin-2.75cm}{6cm}[frameD-1b]
+
+% definicja ramek typu flow na kolejnych stronach
+\newflowframe[>1]{5cm}{40\baselineskip}{0cm}{19\baselineskip}[frame2-1a]
+\newflowframe[>1]{5cm}{40\baselineskip}{5.5cm}{19\baselineskip}[frame2-2a]
+\newflowframe[>1]{5cm}{40\baselineskip}{11cm}{19\baselineskip}[frame2-3a]
+
+\definecolor{green}{rgb}{0.148,0.214,0.228}
+
+\title{Character Sheet for Arannis}
+\author{Ashwin Rai }
+% wlanie tekstu do wszystkich ramek typu flow}}
+\date{\relax}
+
+\begin{document}
+
+\pagestyle{empty}
+
+% wstawienie numerów stron w ramki dynamiczne frameD-1a i frameD-1b
+\begin{dynamiccontents*}{frameD-1a}
+\begin{tikzpicture}
+\draw(0,0) node [fill=green, minimum width=2cm, minimum height=2cm]{
+{\sffamily\bfseries\Huge\color{white}\thepage}
+};
+\end{tikzpicture}
+\end{dynamiccontents*}
+
+\begin{dynamiccontents*}{frameD-1b}
+\begin{tikzpicture}
+\draw(0,0) node [fill=green, minimum width=2cm, minimum height=2cm]{
+{\sffamily\bfseries\Huge\color{white}\thepage}
+};
+\end{tikzpicture}
+\end{dynamiccontents*}
+
+
+% wstawienie grafiki w ramkię statyczną frameS-1a
+\begin{staticcontents*}{frameS-1a}
+\includegraphics[width=\textwidth,trim=.5cm 5cm 1.5cm -1cm,clip=true]{fig1.jpg}
+\end{staticcontents*}
+
+% wypełnienie tekstem ramki statycznej frameS-1b
+\begin{staticcontents*}{frameS-1b}
+\begin{tikzpicture}
+\draw(0,0) node [fill=green, text width=13cm, inner sep=4mm, opacity=0.6]{
+\Huge\sffamily\textcolor{SpringGreen}{Arannis Frostvale: Character Sheet} 
+
+};
+\end{tikzpicture}
+\end{staticcontents*}
+
+\section{Character Detail}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|| l | c ||}
+\hline
+\textsc{Adult Name} & \textsc{Arannis}\\
+\textsc{Child Name} & \textsc{Rael}\\
+\textsc{Height} & \textsc{5'8''}\\
+\textsc{Weight }& \textsc{120lbs} \\
+\textsc{Race}&   \textsc{Wood Elf}\\
+\textsc{Class}&\textsc{Rogue}\\
+\textsc{Gender}&\textsc{Male}\\
+\textsc{Background}& \textsc{Noble}  \\
+\textsc{Eyes} & \textsc{Green}\\
+\textsc{Skin}&\textsc{Copperish}\\
+\textsc{Hair}&\textsc{Blonde}\\
+\textsc{Allignment}&\textsc{C-G}\\
+
+\hline
+\end{tabular}
+\end{table}
+
+
+\section{History}
+\yinipar{\color{green}A}rannis Frostvale was born on a stormy night to the Frostvale family, a minor noble household of Arias, a pristine wood-elf village. This child of the Frostvale's was very special; his birth was foreseen by the sages and the priests as an omen, either of promise or of dark times. Ignoring all the premonitions of their son's birth and with parental optimism, the Frostvale's welcomed this new member of their family and named him Rael. 
+As a noble is ought to, Rael was sent to tutors to learn the art of diplomacy, poetry and politics. He found this boring and a waste of his time, instead spending most of his day with the other elven children, frolicking around the forest. His parents soon realized that Rael did not like staying at one place and following orders. The building chaos inside him frightened his parents, but they chose to ignore it. As time passed Rael's actions brought dishonor on himself and his family but instead of choosing to follow his culturally defined path, he found ways to hide his wrong doings instead. Stealthy actions, well spun lies and sleight of hand became his play things, but his frustrations at having to remain at the lonesome village kept increasing. In his lessons of history and races, he learnt about the world that lay just beyond those hanging branches. He yearned to wander and experience the thrill of the unknown. As soon as he reached adulthood, he took the Adult name of Arannis, the folk hero Arannis who once brought much honor to Arias with his wandering legends. He soon wrought leather armor and a shortsword for himself and using all those carefully practiced skills in stealth, managed to sneak out of his village into the unknown. He felt a twinge of regret for his family, who he knew would be saddened by his decision, but also surprisingly, for Laineth, his childhood friend who he grew up with. He had never imagined that an image of her, saddened upon his departure, could almost make him reverse his decision. But alas, he kept going on.
+It took more than a month to escape Elven country but he finally reached Dwarven lands. Arannis spent a week, taking in his new found freedom, performing odd jobs for the Dwarves who were more than anything, embarrassed at seeing an Elf lower himself so. After a week, Rael's, now Arannis' wanderlust hit him again and he made his way to Human occupied lands. It was there, that he was introduced to the wretched scum of life, never present in the Elven lands. Immediately, after entering a Human town, he was arrested for not having the right import permits for his weapons, beaten and thrown into a filthy jail. It took him a year to break out of the jail, having killed the guard, the first person he had ever killed. He couldn't escape the town immediately, so he spent a few months, forming contacts with the local thieves\' guild, learning new skills and learning the art of survival among the scum.
+After three months, Arannis finally found the opportunity to flee that wretched town. He did. But then he wondered. Where was he to go now? Even having faced some of the worst moments of his life, Arannis had never felt more awake, more thrilled, more alive. He wanted more, so he travelled to the next town where he met the local thieves guild again, this time taking contracts. 
+After one particularly nasty job, Arannis re-evaluated his stance on assassinations and now accepted assassination jobs as well.In only a few months he acquired quite a reputation for himself. Arannis realized his welcome was past and contracted himself to small time travelling parties, in search of loot, treasure but more than that, new adventure. With his often changing comrades of the roads he travelled and discovered, learnt and experienced.
+In one of this adventures, after having stabbed another gaurd in the back and waiting for his death moans to subside, Arannis realized the power residing in violence. He could wish for peace for as long as he wanted, hope for it, but he knew that it was impossible to exist unless someone was always ready with a sword and ready to stab someone with it. Only when one could hope to defend himself and what was his could there be peace. Without power, knowledge or strength, there was no hope for survival. Having reached this conclusion, he left the party he was contracted with, throwing them a few coins he could care less about for breaking his contract and went in search for fulfillment. And thus, he found the order of the black dragon.
+\section{Motivations}
+Arannis has only one motivation, to understand the plane of existence, to confirm his theories about suffering, about peace, about life. He enjoys the thrill of achieving material rewards but does not care about the rewards themselves. Having brought up in a family that had everything, material riches do not satisfy him. His hope is to reach a deeper level of understanding of the multiverse.
+Hence his nature is of one that questions everything. It is hard to deceive him since he will thinks of everything and everyone, every plan will be deconstructed and every lie will be investigated. This also makes him a dreadful conversationalist, opening up philosophical discussions every time someone asks how his day was. Being young, youthful and beautiful to the eyes of humans, he also takes to flirting quite viciously, yet at times misses Laineth, and drinking voraciously, since only under the influence of wine can he deaden his ever questioning nature. Having experienced the disasters that comes from being drunk in a hostile city has taught him to enjoy his spirits alone or in the midst of people he (somewhat) trusts. 
+\textsc{Image Credit: Rob-Joseph / DeviantArt}
+\end{document}
+
