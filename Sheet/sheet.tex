@@ -1,6 +1,7 @@
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
+\usepackage{enumitem}
 \usepackage[margin=0.1in]{geometry}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{yfonts}
@@ -8,7 +9,7 @@
 \usepackage{aurical}
 \usepackage[T1]{fontenc}
 \usepackage{tabularx}
- \usepackage{watermark}
+\usepackage{watermark}
 \usepackage{tikz}
 \newcommand*\circled[1]{\tikz[baseline=(char.base)]{
             \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
@@ -16,30 +17,53 @@
 
 \begin{document}
 \thiswatermark{\centering \put(-50,-850){\includegraphics[scale=1.5]{img/paper.jpg}} }
-\begin{minipage}{0.5\textwidth}
+\begin{minipage}{0.4\textwidth}
 
-\includegraphics[scale=0.5]{img/zitto.png}
+\includegraphics[scale=0.45]{img/arnosto.png}
 
 \end{minipage}%
-\begin{minipage}{0.5\textwidth}%\raggedleft
+\begin{minipage}{0.55\textwidth}%\raggedleft
 \Huge{\Fontauri The Real Arnosto} \\
-\Large{Fighter 2/Magic User 2}
-\vspace{1cm}
+\Large{Fighter 2/Magic User 2} \\
 
+\begin{normalsize}
+            \begin{itemize}[topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt]
+\item Is about 5’ tall has bushy black hair has a beard that keeps growing back, no matter how often he shaves
+\item has bare feet, which is not uncommon in these parts
+\item has hazel eyes
+\item sports a minimal smile, in fact it is probably a quarter of a smirk; the only way to tell if he is happy is if you can see a sparkle in his eyes
+\end{itemize}
+\end{normalsize}
+
+\begin{large}
+\vspace{0.4cm}
 \begin{tabular}{cccccc}
 Str & Int & Wis & Dex & Con & Cha \\ \hline
 13 & 11 & 8 & 11 & 11 & 10\\ 
 $\bullet$ & & & & & 
 \end{tabular}
+\end{large}
 
-\vspace{1cm}
-\begin{tabular}{lc}
+\vspace{0.4cm}
+\begin{minipage}[t]{0.2\textwidth}
+\begin{large}
+\begin{tabular}[t]{lc}
 \textcolor{OCRA}{HP} & \circled{12}\\
 \textcolor{OCRA}{AC Leather} & \circled{\ 7}\\
-\textcolor{OCRA}{AC Mail} & \circled{\ 5}\\
-\textcolor{OCRA}{AC Plate} & \circled{\ 3}\\
 \textcolor{OCRA}{Shield} & \circled{-1}
 \end{tabular}
+\end{large}
+\end{minipage}
+\hspace{1.0cm}
+            \begin{minipage}[t]{0.2\textwidth}
+\begin{large}
+            \begin{tabular}[t]{lc}
+\textcolor{OCRA}{AC Mail} & \circled{\ 5}\\
+\textcolor{OCRA}{AC Plate} & \circled{\ 3}
+\end{tabular}
+\end{large}
+\ \
+\end{minipage}
 \end{minipage}
  
  \vspace{0.5cm}
