@@ -6,25 +6,25 @@
 \NewDocumentCommand{\CountBox}{m}
  {
   % measure the wider number
-  \hbox_set:Nn \l_tmpa_box { 20 }
+  \hbox_set:Nn \l_tmpa_box { #1 }
   \dim_set:Nn \l_tmpa_dim { \box_wd:N \l_tmpa_box }
   % do as many columns as specified
-  \begin{tabular}{|*{20}{w{c}{\l_tmpa_dim}|}}
+  \begin{tabular}{|*{#1}{w{c}{\l_tmpa_dim}|}}
   \hline
   % do '<number> &' one less than specified, then add the last number
-  \int_step_function:nN { 20 - 1 } \__phlemp_countbox_head:n 20 \\
+  \int_step_function:nN { #1 - 1 } \__phlemp_countbox_head:n #1 \\
   \hline
   % generate as many &'s as necessary to fill the second row
-  \prg_replicate:nn { #1 } {X & } \\
+  \prg_replicate:nn { #1 - 1 } {X & } \\
   \hline
   \end{tabular}
  }
 
 % auxiliary function for adding the & after the number
-\cs_new_protected:Nn \__phlemp_countbox_head:n { 20 & }
+\cs_new_protected:Nn \__phlemp_countbox_head:n { #1 & }
 \ExplSyntaxOff
 
 \begin{document}
 
-\CountBox{10}
+\CountBox{3} \CountBox{10}
 \end{document}
