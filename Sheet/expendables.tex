@@ -1,0 +1,31 @@
+\usepackage{etoolbox}
+\ExplSyntaxOn
+\NewDocumentCommand{\CountBox}{m m}
+ {
+  % measure the wider number
+  \hbox_set:Nn \l_tmpa_box { #1 }
+  \dim_set:Nn \l_tmpa_dim { \box_wd:N \l_tmpa_box }
+  % do as many columns as specified
+  \begin{tabular}{|*{#1}{w{c}{\l_tmpa_dim}|}}
+  \hline
+  % do '<number> &' one less than specified, then add the last number
+  \int_step_function:nN { #1 - 1 } \__phlemp_countbox_head:n #1 \\
+  \hline
+  % generate as many &'s as necessary to fill the second row
+  \ifnum#1=#2
+  \def\reptemp{ \prg_replicate:nn { #2 -1 } {X & } X \\}
+  \reptemp
+    % Code to execute if \foo and \bar are equal
+\else
+  \def\reptemp{ \prg_replicate:nn { #2 } {X & }}
+  \appto\reptemp{ \prg_replicate:nn { #1 -#2 -1} { & } \\}
+  \reptemp
+    % Code to execute if \foo and \bar are not equal
+\fi
+  \hline
+  \end{tabular}
+ }
+
+% auxiliary function for adding the & after the number
+\cs_new_protected:Nn \__phlemp_countbox_head:n { #1 & }
+\ExplSyntaxOff
