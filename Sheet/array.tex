@@ -1,6 +1,7 @@
-\documentclass{article}
-
+\documentclass[a4paper,10pt]{report}
 \usepackage{xparse,array}
+\usepackage{etoolbox}
+
 
 \ExplSyntaxOn
 \NewDocumentCommand{\CountBox}{m m}
@@ -15,7 +16,9 @@
   \int_step_function:nN { #1 - 1 } \__phlemp_countbox_head:n #1 \\
   \hline
   % generate as many &'s as necessary to fill the second row
-  \prg_replicate:nn { #2 } {X & } \\
+  \def\reptemp{ \prg_replicate:nn { #2 } {X & }}
+  \appto\reptemp{ \prg_replicate:nn { #1 - #2 - 1 } { & } \\}
+  \reptemp
   \hline
   \end{tabular}
  }
