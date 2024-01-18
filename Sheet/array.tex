@@ -3,7 +3,7 @@
 \usepackage{xparse,array}
 
 \ExplSyntaxOn
-\NewDocumentCommand{\CountBox}{m}
+\NewDocumentCommand{\CountBox}{m m}
  {
   % measure the wider number
   \hbox_set:Nn \l_tmpa_box { #1 }
@@ -15,7 +15,7 @@
   \int_step_function:nN { #1 - 1 } \__phlemp_countbox_head:n #1 \\
   \hline
   % generate as many &'s as necessary to fill the second row
-  \prg_replicate:nn { #1 - 1 } {X & } \\
+  \prg_replicate:nn { #2 } {X & } \\
   \hline
   \end{tabular}
  }
@@ -26,5 +26,5 @@
 
 \begin{document}
 
-\CountBox{3} \CountBox{10}
+\CountBox{20}{12}
 \end{document}
