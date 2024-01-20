@@ -1,1 +1,4 @@
 **/.DS_Store
+sheet.fdb_latexmk
+sheet.fls
+texput.log
