@@ -13,6 +13,7 @@
 \usepackage{MnSymbol}
 \usepackage{tikz}
 \usepackage{paracol}% support floats
+\newcommand{\comma}{, }
 \newcommand*\circled[1]{\tikz[baseline=(char.base)]{
             \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
 \definecolor{OCRA}{RGB}{204,119,34}
@@ -103,13 +104,24 @@ I checked for magic items. He traded distilled cactus juice and a pinch of heale
 Lycanthropy
 \\
 One night per month. Gains 4 HP.  Attacks with +2 to hit and +2 damage.  Has to make a save throw against Poison, or he can go nuts and run off looking for meat. Once he’s gotten meat, he will be a little tamer, but he gets a little worse than Honeybadger’s baseline! Lycanthropy is curable if you have the right connections.
+\vspace{0.5cm}
 \\
 \begin{minipage}[t]{.25\textwidth}
-    \vspace{0.5cm}
     {\huge \textbf{\Fontauri Spells}}\\
     \textcolor{OCRA}{Level 1 slots: \SpellSlotsLevelOne }\\
     \LevelOneSpellOne\\
     \LevelOneSpellTwo
+    \end{minipage}
+    \begin{minipage}[t]{0.22\textwidth}
+        {\huge \textbf{\Fontauri Coins}}\\
+        \begin{large}
+            \begin{tabular}[t]{lc}
+                \textcolor{OCRA}{Platinum} & \circled{\Platinum}\\
+                \textcolor{OCRA}{Gold} & \circled{\Gold}\\
+                \textcolor{OCRA}{Silver} & \circled{\Silver}\\
+                \textcolor{OCRA}{Copper} & \circled{\Copper}
+            \end{tabular}
+        \end{large}
     \end{minipage}
     \\
 \begin{minipage}[b]{\textwidth}
