@@ -14,7 +14,7 @@
 \usepackage{tikz}
 \usepackage{paracol}% support floats
 \newcommand{\comma}{, }
-\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+\newcommand*\circled[1]{\tikz[baseline= (char.base)]{
             \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
 \definecolor{OCRA}{RGB}{204,119,34}
 \input{variables.tex}
@@ -31,7 +31,7 @@
 \end{minipage}%
 \hspace{0.4cm}
 \begin{minipage}{0.55\textwidth}%\raggedleft
-    \Huge{\Fontauri The Real Arnosto} \\
+    \Huge{\Fontauri{The Real Arnosto}} \\
     \Large{Fighter \FighterLevel/Magic User \MagicUserLevel} \\
     \begin{normalsize}
         \begin{itemize}[topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt, leftmargin=*]
@@ -103,17 +103,17 @@ I checked for magic items. He traded distilled cactus juice and a pinch of heale
 \\
 Lycanthropy
 \\
-One night per month. Gains 4 HP.  Attacks with +2 to hit and +2 damage.  Has to make a save throw against Poison, or he can go nuts and run off looking for meat. Once he’s gotten meat, he will be a little tamer, but he gets a little worse than Honeybadger’s baseline! Lycanthropy is curable if you have the right connections.
+One night per month. Gains 4 HP. Attacks with +2 to hit and +2 damage.  Has to make a save throw against Poison, or he can go nuts and run off looking for meat. Once he’s gotten meat, he will be a little tamer, but he gets a little worse than Honeybadger’s baseline! Lycanthropy is curable if you have the right connections.
 \vspace{0.5cm}
 \\
 \begin{minipage}[t]{.2\textwidth}
-    {\huge \textbf{\Fontauri Spells}}\\
-    \textcolor{OCRA}{Level 1 slots: \SpellSlotsLevelOne }\\
+    {\huge \textbf{\Fontauri{Spells}}}\\
+    \textcolor{OCRA}{Level 1 slots: \SpellSlotsLevelOne}\\
     \LevelOneSpellOne\\
     \LevelOneSpellTwo
     \end{minipage}
     \begin{minipage}[t]{0.3\textwidth}
-        {\huge \textbf{\Fontauri Coins}}\\
+        {\huge \textbf{\Fontauri{Coins}}}\\
         \begin{large}
             \begin{tabular}[t]{lc}
                 \textcolor{OCRA}{Platinum} & \circled{\Platinum}\\
@@ -124,7 +124,7 @@ One night per month. Gains 4 HP.  Attacks with +2 to hit and +2 damage.  Has to 
         \end{large}
     \end{minipage}
     \begin{minipage}[t]{0.3\textwidth}
-        {\huge \textbf{\Fontauri Experience}}\\
+        {\huge \textbf{\Fontauri{Experience}}}\\
         \begin{large}
             \begin{tabular}[t]{lr}
                 \textcolor{OCRA}{Current XP} & \XP\\
@@ -137,7 +137,7 @@ One night per month. Gains 4 HP.  Attacks with +2 to hit and +2 damage.  Has to 
 \\
 %\hspace{1.5cm}
 \begin{minipage}[t]{.25\textwidth}
-{\huge \textbf{\Fontauri Scrolls}}\\
+{\huge \textbf{\Fontauri{Scrolls}}}\\
 \ScrollOne\\
 \ScrollTwo\\
 \ScrollThree\\
@@ -150,14 +150,14 @@ One night per month. Gains 4 HP.  Attacks with +2 to hit and +2 damage.  Has to 
 \PotionTwo\\
 \end{minipage}
 \begin{minipage}[t]{.2\textwidth}%\raggedleft
-{\huge \textbf{\Fontauri Magic weapons}}\\
+{\huge \textbf{\Fontauri{Magic weapons}}}\\
 \MagicWeaponOne\\
 \MagicWeaponTwo\\
 \end{minipage}
 \\
 \begin{minipage}[t]{\textwidth}
 \vspace{0.6cm}
-{\huge \textbf{\Fontauri Pointy things}}\\
+{\huge \textbf{\Fontauri{Pointy things}}}\\
 \begin{tabular}{l|c|c|c|c}%
     \bfseries Weapon & \bfseries Hit Roll Adjustment & \bfseries Melee Damage & \bfseries Missile Damage & \bfseries Special% specify table head
 \csvreader[head to column names]{weapons.csv}{}% use head of csv as column names
@@ -167,7 +167,7 @@ One night per month. Gains 4 HP.  Attacks with +2 to hit and +2 damage.  Has to 
 \\
 \begin{minipage}[t]{\textwidth}
 \vspace{0.6cm}
-{\huge \textbf{\Fontauri Expendables}}\\
+{\huge \textbf{\Fontauri{Expendables}}}\\
 \Large{\textcolor{OCRA}{Torches}}\\
     \CountBox{20}{\Torches}
 \end{minipage}
