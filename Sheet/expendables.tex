@@ -2,6 +2,7 @@
 \ExplSyntaxOn
 \NewDocumentCommand{\CountBox}{m m}
  {
+   \begin{tiny}
   % measure the wider number
   \hbox_set:Nn \l_tmpa_box { #1 }
   \dim_set:Nn \l_tmpa_dim { \box_wd:N \l_tmpa_box }
@@ -24,6 +25,7 @@
 \fi
   \hline
   \end{tabular}
+   \end{tiny}
  }
 
 % auxiliary function for adding the & after the number
