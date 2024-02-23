@@ -1,4 +1,5 @@
-Weapon,THACOAdjustment,MeleeDamage,MissileDamage,Special
-Shortbow, , ,D6,two handed\comma 5-50 +1 and 101-150 -1
-Spear,+1 to hit (Melee),D6 +1,D6,Double damage if braced
-Sword,+1 to hit (Melee),D8 +1,,
+Weapon       ,THACOAdjustment  ,MeleeDamage,MissileDamage,Special
+Shortbow     ,                 ,           ,D6           ,two handed\comma 5-50 +1 and 101-150 -1
+Spear        ,+1 to hit (Melee),D6 +1      ,D6           ,Double damage if braced
+Sword        ,+1 to hit (Melee),D8 +1      ,             ,
+Silver Dagger,+1 to hit (Melee),D4 +1      ,             ,Missile 5–10 +1 and 21–30 -1
