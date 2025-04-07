@@ -31,21 +31,209 @@ I have one level one slot, and have memorized Cure light wounds.
 
 ## Turn undead
 
-| Enemy            | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11 | 12 |
-| ---------------- | -- | -  | -  | -  | -  | -  | -  | -  | -  | -- | -- | -- |
-| Skeleton or 1 HD | 10 | 7  | 4  | T  | T  | D  | D  | D* | D* | D* | D* | D* |
-| Zombie           | 13 | 10 | 7  | 4  | T  | T  | D  | D  | D* | D* | D* | D* |
-| Ghoul or 2 HD    | 16 | 13 | 10 | 7  | 4  | T  | T  | D  | D  | D* | D* | D* |
-| Shadow or 3-4 HD | 19 | 16 | 13 | 10 | 7  | 4  | T  | T  | D  | D  | D* | D* |
-| Wight or 5 HD    | 20 | 19 | 16 | 13 | 10 | 7  | 4  | T  | T  | D  | D  | D* |
-| Ghast 	       | —  | 20 | 19 | 16 | 13 | 10 | 7  | 4  | T  | T  | D  | D  |
-| Wraith or 6 HD   | —  | —  | 20 | 19 | 16 | 13 | 10 | 7  | 4  | T  | T  | D  |
-| Mummy or 7 HD    | —  | —  | —  | 20 | 19 | 16 | 13 | 10 | 7  | 4  | T  | T  |
-| Spectre or 8 HD  | —  | —  | —  | —  | 20 | 19 | 16 | 13 | 10 | 7  | 4  | T  |
-| Vampire or 9 HD  | —  | —  | —  | —  | —  | 20 | 19 | 16 | 13 | 10 | 7  | 4  |
-| Ghost or 10 HD   | —  | —  | —  | —  | —  | —  | 20 | 19 | 16 | 13 | 10 | 7  |
-| Lich or 11+ HD   | —  | —  | —  | —  | —  | —  | —  | 20 | 19 | 16 | 13 | 10 |
-| Special**        | —  | —  | —  | —  | —  | —  | —  | —  | 20 | 19 | 16 | 13 |
+<table>
+<thead>
+<tr>
+<th>Creature level</th>
+<th colspan="12">Cleric level</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Skeleton or 1 HD</td>
+<td>10</td>
+<td>7</td>
+<td>4</td>
+<td>T</td>
+<td>T</td>
+<td>D</td>
+<td>D</td>
+<td>D*</td>
+<td>D*</td>
+<td>D*</td>
+<td>D*</td>
+<td>D*</td>
+</tr>
+<tr>
+<td>Zombie</td>
+<td>13</td>
+<td>10</td>
+<td>7</td>
+<td>4</td>
+<td>T</td>
+<td>T</td>
+<td>D</td>
+<td>D</td>
+<td>D*</td>
+<td>D*</td>
+<td>D*</td>
+<td>D*</td>
+</tr>
+<tr>
+<td>Ghoul or 2 HD</td>
+<td>16</td>
+<td>13</td>
+<td>10</td>
+<td>7</td>
+<td>4</td>
+<td>T</td>
+<td>T</td>
+<td>D</td>
+<td>D</td>
+<td>D*</td>
+<td>D*</td>
+<td>D*</td>
+</tr>
+<tr>
+<td>Shadow or 3-4 HD</td>
+<td>19</td>
+<td>16</td>
+<td>13</td>
+<td>10</td>
+<td>7</td>
+<td>4</td>
+<td>T</td>
+<td>T</td>
+<td>D</td>
+<td>D</td>
+<td>D*</td>
+<td>D*</td>
+</tr>
+<tr>
+<td>Wight or 5 HD</td>
+<td>20</td>
+<td>19</td>
+<td>16</td>
+<td>13</td>
+<td>10</td>
+<td>7</td>
+<td>4</td>
+<td>T</td>
+<td>T</td>
+<td>D</td>
+<td>D</td>
+<td>D*</td>
+</tr>
+<tr>
+<td>Ghast</td>
+<td>—</td>
+<td>20</td>
+<td>19</td>
+<td>16</td>
+<td>13</td>
+<td>10</td>
+<td>7</td>
+<td>4</td>
+<td>T</td>
+<td>T</td>
+<td>D</td>
+<td>D</td>
+</tr>
+<tr>
+<td>Wraith or 6 HD</td>
+<td>—</td>
+<td>—</td>
+<td>20</td>
+<td>19</td>
+<td>16</td>
+<td>13</td>
+<td>10</td>
+<td>7</td>
+<td>4</td>
+<td>T</td>
+<td>T</td>
+<td>D</td>
+</tr>
+<tr>
+<td>Mummy or 7 HD</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>20</td>
+<td>19</td>
+<td>16</td>
+<td>13</td>
+<td>10</td>
+<td>7</td>
+<td>4</td>
+<td>T</td>
+<td>T</td>
+</tr>
+<tr>
+<td>Spectre or 8 HD</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>20</td>
+<td>19</td>
+<td>16</td>
+<td>13</td>
+<td>10</td>
+<td>7</td>
+<td>4</td>
+<td>T</td>
+</tr>
+<tr>
+<td>Vampire or 9 HD</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>20</td>
+<td>19</td>
+<td>16</td>
+<td>13</td>
+<td>10</td>
+<td>7</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Ghost or 10 HD</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>20</td>
+<td>19</td>
+<td>16</td>
+<td>13</td>
+<td>10</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Lich or 11+ HD</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>20</td>
+<td>19</td>
+<td>16</td>
+<td>13</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Special**</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>20</td>
+<td>19</td>
+<td>16</td>
+<td>13</td>
+</tr>
+</tbody></table>
 
 ## THAC0
 
