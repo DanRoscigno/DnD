@@ -27,7 +27,19 @@ Initial Max HP is 8 + 2 = 10
 
 ## Spell slots
 
-I have one level one slot, and have memorized Cure light wounds.
+I have one level one slot. My spells are provided by my deity, so I do not need to memorize spells.
+
+## Saving throws
+
+- 10 or higher: Paralyzation, Poison, or Death Magic
+- 14 or higher: Rod, Staff, or Wand
+- 13 or higher: Petrification or Polymorph [^1]
+- 16 or higher: Breath Weapon**
+- 15 or higher: Spell***
+
+[^1]: Excluding polymorph wand attacks.
+** Excluding those that cause petrification or polymorph.
+*** Excluding those for which another saving throw type is specified, such as death, petrification, polymorph, etc.
 
 ## Turn undead
 
