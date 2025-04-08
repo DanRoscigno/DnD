@@ -4,6 +4,10 @@ Hit Points: 1D8 +2
 
 Initial Max HP is 8 + 2 = 10
 
+AC 4
+
+THAC0 20
+
 ## Rolls
 
 > A cleric must have a Wisdom score of 9 or more.
@@ -260,7 +264,11 @@ I have one level one slot. My spells are provided by my deity, so I do not need 
 
 ## Armor
 
+- Chain mail + shield AC4
+
 ## Weapons
+
+- Morningstar 2D4
 
 ## Fighting style
 
@@ -282,23 +290,26 @@ Weapon and Shield Style. This allows me to choose to make a secondary attack eve
 
 Start out with four non-weapon proficiencies
 
-- 
-- 
-- 
-- 
+- Direction sense: I need to roll at or under 17 (Wisdom +1)
+- Carpentry: I need to roll at or under 12 (Strength)
+- Local History: I need to roll at or under 15 (Charisma)
+- Religion: I need to roll at or under 16 (Wisdom)
 
 ## Weapon proficiencies
 
 Start out with two weapon proficiencies
 
-- 
-- 
+- Morningstar
+- Quarterstaff
 
 ## Attacks of opportunity
 
 One attack of opportunity
 
+## Languages
 
+- Dwarvish
+- Kobold
 
 
 A crossroad for many different forces. Errand: Corky is the town healer, and the summer solstice is approaching. On the equinox, Goblins come to town with fruit that heals. Corky needs to know the magic used, in case it does more damage than to her bank account.
@@ -320,5 +331,4 @@ We are looking for Talgon and Sharwin (relatives of Huckerly). Look for the sign
 
 We are looking sir Bravheard and Karacas also, Braveheard is a Palladin and Karackas is a Ranger. These are the kinsmen of the blacksmith.
 
-Pick two new languages
 
