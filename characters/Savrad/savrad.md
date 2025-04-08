@@ -19,7 +19,10 @@ Initial Max HP is 8 + 2 = 10
 
 ## Bonuses
 
-- Wisdom 13 or higher to get bonus over spells
+- Wisdom 16 gives:
+  - An extra level 2 spell, so at level 3 and above I have an extra level 2 spell
+  - 10% bonus to earned experience points
+  - +2 on saving throws for spells that attack the mind: beguiling, charm, fear, hypnosis, illusions, possession, suggestion, etc. These bonuses and penalties are applied automatically, without any conscious effort from the character.
 - Constitution of 16 gives:
   - +2 each level on HP
   - 95% System Shock
@@ -31,15 +34,15 @@ I have one level one slot. My spells are provided by my deity, so I do not need 
 
 ## Saving throws
 
-- 10 or higher: Paralyzation, Poison, or Death Magic
+- 10 or higher: Paralysis, Poison, or Death Magic
 - 14 or higher: Rod, Staff, or Wand
-- 13 or higher: Petrification or Polymorph [^1]
-- 16 or higher: Breath Weapon**
-- 15 or higher: Spell***
+- 13 or higher: Petrification or Polymorph (1)
+- 16 or higher: Breath Weapon (2)
+- 15 or higher: Spell (3)
 
-[^1]: Excluding polymorph wand attacks.
-** Excluding those that cause petrification or polymorph.
-*** Excluding those for which another saving throw type is specified, such as death, petrification, polymorph, etc.
+(1): Excluding polymorph wand attacks.
+(2): Excluding those that cause petrification or polymorph.
+(3): Excluding those for which another saving throw type is specified, such as death, petrification, polymorph, etc.
 
 ## Turn undead
 
