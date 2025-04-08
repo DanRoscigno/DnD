@@ -8,6 +8,18 @@ AC 4
 
 THAC0 20
 
+## Deity: Ama-Tsu-Mara
+
+![Ama-Tsu-Mara](./ama-tsu-mara.jpg)
+
+The god of blacksmiths (and weapon forgers). He has the power to create raw materials, such as iron ingots, charcoal, and leather, out of thin air. Using these materials, Ama-Tsu-Mara can forge any type of normal weapon in a single hour. Magical weapons take longer: one day for each power and for each +1 modifier. Any magical weapon forged by Ama-Tsu-Mara possesses a kami, which means it is automatically intelligent (see the rules for creating intelligent weapons in the Dungeon Master's Guide). In his true form, Ama-Tsu-Mara is a huge, man-like being with one eye located in the center of his forehead.
+
+Role-playing Notes: Ama-Tsu-Mara favors blacksmiths and weapons forgers. Any time one of them is threatened, there is a 5% chance that he sends his avatar to defend the person. When he notices a weapon forger taking special pride in his work, Ama-Tsu-Mara often rewards the effort by investing the weapon with a kami and, thus, making it intelligent.
+
+Ama-Tsu-Mara's avatar is a huge, hairy man who purposely appears rather dull-witted. He always has a patch over his left eye, and any being lifting the patch discovers that there is no eye socket there—only a continuation of his cheekbone. Ama-Tsu-Mara's avatar can draw upon the elemental, creation, and sun spheres for his spells. 
+
+Priests of Ama-Tsu-Mara must always have the blacksmithing non-weapons proficiency. They must always carry exceptionally fine weapons that they have crafted themselves. 
+
 ## Rolls
 
 > A cleric must have a Wisdom score of 9 or more.
@@ -291,7 +303,7 @@ Weapon and Shield Style. This allows me to choose to make a secondary attack eve
 Start out with four non-weapon proficiencies
 
 - Direction sense: I need to roll at or under 17 (Wisdom +1)
-- Carpentry: I need to roll at or under 12 (Strength)
+- Blacksmithing: I need to roll at or under 12 (Strength)
 - Local History: I need to roll at or under 15 (Charisma)
 - Religion: I need to roll at or under 16 (Wisdom)
 
