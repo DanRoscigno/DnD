@@ -281,13 +281,14 @@ I have one level one slot. My spells are provided by my deity, so I do not need 
 ## Weapons
 
 - Morningstar 2D4
+- Quarterstaff 1D6
 
 ## Fighting style
 
 Weapon and Shield Style. This allows me to choose to make a secondary attack every round with my shield. The secondary attacks are:
 
-- shield-rush
-- shield-punch
+- shield-rush 1D3
+- shield-punch 1D3
 - block
 - trap
 
