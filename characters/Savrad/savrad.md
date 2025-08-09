@@ -8,6 +8,11 @@ AC 4
 
 THAC0 20
 
+### XP for levels
+1. 0
+2. 1375 (I get 10% XP bonus for high wisdom)
+3. 2727
+
 ## Deity: Ama-Tsu-Mara
 
 ![Ama-Tsu-Mara](./ama-tsu-mara.jpg)
