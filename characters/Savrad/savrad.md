@@ -349,4 +349,6 @@ We are looking for Talgon and Sharwin (relatives of Huckerly). Look for the sign
 
 We are looking sir Bravheard and Karacas also, Braveheard is a Palladin and Karackas is a Ranger. These are the kinsmen of the blacksmith.
 
+We traded non-combatants for a shorty named Irky Timbers
+
 
