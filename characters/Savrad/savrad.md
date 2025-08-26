@@ -351,4 +351,4 @@ We are looking sir Bravheard and Karacas also, Braveheard is a Palladin and Kara
 
 We traded non-combatants for a shorty named Irky Timbers
 
-
+Belack is an evil Druid
