@@ -351,4 +351,4 @@ We are looking sir Bravheard and Karacas also, Braveheard is a Palladin and Kara
 
 We traded non-combatants for a shorty named Irky Timbers
 
-Belack is an evil Druid
+Belack is an evil Druid who cultivates fruits: In midummer the fruit heals. In midwinter the pale fruit saps the hehalth of thhe consumer. Belack has the Goblins sell the fruit.
