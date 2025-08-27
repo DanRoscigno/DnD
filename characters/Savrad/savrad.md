@@ -8,10 +8,10 @@ AC 4
 
 THAC0 20
 
-### XP for levels
-
-Current XP:
+### Current XP:
   - 26 Aug 2025: 850
+
+### XP for levels
 
 1. 0
 2. 1375 (I get 10% XP bonus for high wisdom)
