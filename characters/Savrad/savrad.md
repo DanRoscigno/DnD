@@ -6,10 +6,12 @@ Initial Max HP is 8 + 2 = 10
 
 AC 4
 
+Current Hit Points: 10
+
 THAC0 20
 
 ### Current XP:
-  - 26 Aug 2025: 850
+  - 18 Sep 2025: 971
 
 ### XP for levels
 
@@ -25,9 +27,9 @@ The god of blacksmiths (and weapon forgers). He has the power to create raw mate
 
 Role-playing Notes: Ama-Tsu-Mara favors blacksmiths and weapons forgers. Any time one of them is threatened, there is a 5% chance that he sends his avatar to defend the person. When he notices a weapon forger taking special pride in his work, Ama-Tsu-Mara often rewards the effort by investing the weapon with a kami and, thus, making it intelligent.
 
-Ama-Tsu-Mara's avatar is a huge, hairy man who purposely appears rather dull-witted. He always has a patch over his left eye, and any being lifting the patch discovers that there is no eye socket there—only a continuation of his cheekbone. Ama-Tsu-Mara's avatar can draw upon the elemental, creation, and sun spheres for his spells. 
+Ama-Tsu-Mara's avatar is a huge, hairy man who purposely appears rather dull-witted. He always has a patch over his left eye, and any being lifting the patch discovers that there is no eye socket there—only a continuation of his cheekbone. Ama-Tsu-Mara's avatar can draw upon the elemental, creation, and sun spheres for his spells.
 
-Priests of Ama-Tsu-Mara must always have the blacksmithing non-weapons proficiency. They must always carry exceptionally fine weapons that they have crafted themselves. 
+Priests of Ama-Tsu-Mara must always have the blacksmithing non-weapons proficiency. They must always carry exceptionally fine weapons that they have crafted themselves.
 
 ## Rolls
 
@@ -343,7 +345,7 @@ Down the old road, leading to the Sunless Citadel.
 
 Merchant Huckerly in the general store.
 
-Misses Huckerly has been out of sorts lately. 
+Misses Huckerly has been out of sorts lately.
 
 
 Ashardalon the dragon burnt the ashen plane
