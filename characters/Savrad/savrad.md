@@ -284,6 +284,7 @@ I have one level one slot. My spells are provided by my deity, so I do not need 
 ## Money
 
 - 3GP to start
+- minus 2 CP for bath
 
 ## Armor
 
