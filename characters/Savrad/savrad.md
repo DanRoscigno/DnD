@@ -2,7 +2,8 @@
 
 Hit Points: 1D8 +2
 
-Initial Max HP is 8 + 2 = 10
+Initial Max HP ~is 8 + 2 = 10~
+Level 2: Rolled an 8, so Max HP is now 20
 
 AC 4
 
