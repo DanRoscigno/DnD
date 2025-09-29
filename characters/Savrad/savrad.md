@@ -11,13 +11,13 @@ Current Hit Points: 10
 THAC0 20
 
 ### Current XP:
-  - 18 Sep 2025: 971
+  - 29 Sep 2025 = 1321
 
 ### XP for levels
 
 1. 0
-2. 1375 (I get 10% XP bonus for high wisdom)
-3. 2727
+2. 1,350 (I get 10% XP bonus for high wisdom)
+3. 2,700
 
 ## Deity: Ama-Tsu-Mara
 
