@@ -7,12 +7,12 @@ Level 2: Rolled an 8, so Max HP is now 20
 
 AC 4
 
-Current Hit Points: 10
+Current Hit Points: 20
 
 THAC0 20
 
 ### Current XP:
-  - 29 Sep 2025 = 1321
+  - 7 Oct 2025 = 1421
 
 ### XP for levels
 
