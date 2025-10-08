@@ -80,8 +80,26 @@ I have one level one slot. My spells are provided by my deity, so I do not need 
 <th>Creature level</th>
 <th colspan="12">Cleric level</th>
 </tr>
+<tr>
+</tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
+<td></td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+<td>12</td>
+</tr>
+<tr>
 <td>Skeleton or 1 HD</td>
 <td>10</td>
 <td>7</td>
@@ -277,6 +295,7 @@ I have one level one slot. My spells are provided by my deity, so I do not need 
 <td>13</td>
 </tr>
 </tbody></table>
+
 
 ## THAC0
 
