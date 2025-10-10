@@ -12,7 +12,13 @@ Current Hit Points: 20
 THAC0 20
 
 ### Current XP:
-  - 7 Oct 2025 = 1421
+  - 9 Oct 2025 = 1,521
+
+### Gear
+
+- 6 healing potions
+- 10 torches
+- 10 rations
 
 ### XP for levels
 
