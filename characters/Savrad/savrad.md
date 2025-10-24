@@ -12,7 +12,7 @@ Current Hit Points: 20
 THAC0 20
 
 ### Current XP:
-  - 9 Oct 2025 = 1,521
+  - 10 Oct 2025 = 1,631
 
 ### Gear
 
