@@ -16,7 +16,7 @@ THAC0 20
 
 ### Gear
 
-- 6 healing potions
+- ~6~ 5 healing potions
 - 10 torches
 - 10 rations
 
