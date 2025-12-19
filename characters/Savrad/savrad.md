@@ -12,7 +12,7 @@ Current Hit Points: ~20~ -6 scythe at cold door: ~14~ -3 for Aelfriend's stupid 
 THAC0 20
 
 ### Current XP:
-  - 18 Dec 2025 = 2,100
+  - 18 Dec 2025 = 2,240
 
 ### Gear
 
