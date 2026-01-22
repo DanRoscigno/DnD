@@ -7,7 +7,7 @@ Level 2: Rolled an 8, so Max HP is now 20
 
 AC 4
 
-Current Hit Points: ~20~ -6 scythe at cold door: ~14~ -3 for Aelfriend's stupid idea: 11-3 rat feces: 8 + 6 potion : 14 - 7 rat poop: 7
+Current Hit Points: ~20~ -6 scythe at cold door: ~14~ -3 for Aelfriend's stupid idea: 11-3 rat feces: 8 + 6 potion : 14 - 7 rat poop: 7 + 8 (potion) = 15
 
 THAC0 20
 
@@ -16,7 +16,7 @@ THAC0 20
 
 ### Gear
 
-- ~6~ 5 healing potions
+- ~6~ 4 healing potions
 - 10 torches
 - 10 rations
 
