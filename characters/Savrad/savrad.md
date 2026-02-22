@@ -2,12 +2,13 @@
 
 Hit Points: 1D8 +2
 
-Initial Max HP ~is 8 + 2 = 10~
-Level 2: Rolled an 8, so Max HP is now 20
+~Initial Max HP is 8 + 2 = 10~\
+~Level 2: Rolled an 8, so Max HP is now 20~\
+**Level 3**: Rolled a 4, so Max HP is now 26
 
 AC 4
 
-Current Hit Points: ~20~ -6 scythe at cold door: ~14~ -3 for Aelfriend's stupid idea: 11-3 rat feces: 8 + 6 potion : 14 - 7 rat poop: 7 + 8 (potion) = 15
+Current Hit Points: ~20~ -6 scythe at cold door: ~14~ -3 for Aelfriend's stupid idea: 11-3 rat feces: 8 + 6 potion : 14 - 7 rat poop: 7 + 8 (potion) = 21
 
 THAC0 20
 
