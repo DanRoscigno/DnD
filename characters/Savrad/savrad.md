@@ -65,7 +65,7 @@ Priests of Ama-Tsu-Mara must always have the blacksmithing non-weapons proficien
 
 ## Spell slots
 
-I have two level one slots. My spells are provided by my deity, so I do not need to memorize spells.
+I have two level one slots and two level two slots. My spells are provided by my deity, so I do not need to memorize spells.
 
 See the [PDF file in this repo](./ClericSpellsLevels1-2.pdf).
 
