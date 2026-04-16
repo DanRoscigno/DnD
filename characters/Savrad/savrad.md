@@ -6,7 +6,7 @@ Hit Points: 1D8 +2
 ~Level 2: Rolled an 8, so Max HP is now 20~\
 **Level 3**: Rolled a 4, so Max HP is now 26
 
-Current HP: 26 - 3 = 23 April 15th
+Current HP: 26
 
 AC 4
 
