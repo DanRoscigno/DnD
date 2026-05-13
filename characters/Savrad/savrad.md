@@ -71,6 +71,19 @@ I have two level one slots and two level two slots. My spells are provided by my
 
 See the [PDF file in this repo](./ClericSpellsLevels1-2.pdf).
 
+### Aid
+
+In Dungeons & Dragons 2nd Edition (AD&D), the Aid spell is a 2nd-level priest spell that bolsters a single creature, granting \(+1\) to attack rolls and saving throws, along with \(1d8 + \text{caster level}\) temporary hit points. It lasts for 1 minute per level, and if the target is already at max HP, these added points act as temporary, extra HP that are lost first.
+
+Key Aspects of 2nd Edition Aid (Priest Spell):
+
+- Level/School: 2nd Level (Cleric, Good, Luck) / Enchantment/Compulsion.
+- Components: V, S, DF (verbal, somatic, divine focus).
+- Target: One living creature touched.
+- Effect: +1 to attack/saves, plus \(1d8\) + (caster level) temporary hit points (max \(+10\) to the roll).
+- Important Rules: These HP are lost first and cannot be restored by curing magic. It can make a creature's total HP exceed their normal maximum, making it great to cast before combat.
+- Restriction: It cannot be cast upon the caster themselves.`
+
 ## Saving throws
 
 - 10 or higher: Paralysis, Poison, or Death Magic
