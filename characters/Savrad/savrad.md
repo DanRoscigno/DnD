@@ -16,6 +16,7 @@ THAC0 20
 
 ### Current XP:
   - 27 May 2026 = 3,200
+  - 16 Jun 2026 = 3,300
 
 ### Gear
 
