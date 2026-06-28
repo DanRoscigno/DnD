@@ -21,14 +21,15 @@ THAC0 20
 ### Gear
 
 - ~6~ 4 healing potions
-- 10 torches
-- 10 rations
+- ~10~ 8 torches
+- 10 days rations (used six days, but restocked)
 
 ### XP for levels
 
 1. 0
 2. 1,350 (I get 10% XP bonus for high wisdom)
 3. 2,700
+4. 5,400
 
 ## Deity: Ama-Tsu-Mara
 
