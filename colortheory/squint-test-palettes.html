@@ -1,0 +1,583 @@
+<title>Squint Test Palettes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&family=Alegreya+Sans:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --ground:      #E7E8E3;
+    --surface:     #F4F4F1;
+    --surface-2:   #DCDED7;
+    --ink:         #1B201C;
+    --ink-soft:    #5C6259;
+    --ink-faint:   #868C82;
+    --rule:        #C6C9C0;
+    --rule-strong: #A9ADA3;
+    --accent:      #8C6A2E;
+    --accent-wash: #EFE7D6;
+    --focus:       #8C6A2E;
+
+    --step-1: 0.78rem;
+    --step-2: 0.94rem;
+    --step-3: 1.08rem;
+    --step-4: 1.45rem;
+    --step-5: 2.1rem;
+    --step-6: 3.1rem;
+
+    --display: "Marcellus", "Hoefler Text", Georgia, serif;
+    --body: "Alegreya Sans", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+    --mono: "IBM Plex Mono", "SF Mono", Menlo, monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground:      #171C19;
+      --surface:     #1F2521;
+      --surface-2:   #2A312C;
+      --ink:         #E7E9E2;
+      --ink-soft:    #9AA298;
+      --ink-faint:   #6F776D;
+      --rule:        #333B35;
+      --rule-strong: #4A544C;
+      --accent:      #C9A257;
+      --accent-wash: #2B2A22;
+      --focus:       #C9A257;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --ground:      #171C19;
+    --surface:     #1F2521;
+    --surface-2:   #2A312C;
+    --ink:         #E7E9E2;
+    --ink-soft:    #9AA298;
+    --ink-faint:   #6F776D;
+    --rule:        #333B35;
+    --rule-strong: #4A544C;
+    --accent:      #C9A257;
+    --accent-wash: #2B2A22;
+    --focus:       #C9A257;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--body);
+    font-size: var(--step-3);
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: clamp(2rem, 5vw, 4rem) clamp(1.1rem, 4vw, 2.5rem) 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(2.5rem, 5vw, 4rem);
+  }
+
+  /* ---------- masthead ---------- */
+
+  .mast { display: flex; flex-direction: column; gap: 1.1rem; }
+
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: var(--step-1);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+
+  h1 {
+    font-family: var(--display);
+    font-weight: 400;
+    font-size: clamp(2.4rem, 7vw, var(--step-6));
+    line-height: 1.02;
+    letter-spacing: -0.01em;
+    margin: 0;
+    text-wrap: balance;
+  }
+
+  .standfirst {
+    max-width: 60ch;
+    font-size: var(--step-4);
+    line-height: 1.4;
+    color: var(--ink-soft);
+    margin: 0;
+    text-wrap: pretty;
+  }
+
+  /* ---------- the three rules ---------- */
+
+  .rules {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: clamp(1.2rem, 3vw, 2.2rem);
+    border-top: 1px solid var(--rule-strong);
+    border-bottom: 1px solid var(--rule);
+    padding: 1.6rem 0;
+  }
+
+  .rule-item { display: flex; flex-direction: column; gap: 0.4rem; }
+
+  .rule-item h2 {
+    font-family: var(--display);
+    font-weight: 400;
+    font-size: var(--step-4);
+    margin: 0;
+    line-height: 1.15;
+  }
+
+  .rule-item p {
+    margin: 0;
+    font-size: var(--step-2);
+    color: var(--ink-soft);
+    text-wrap: pretty;
+  }
+
+  /* ---------- squint control ---------- */
+
+  .control-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.9rem 1.4rem;
+    padding: 0.9rem 1.1rem;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--accent);
+  }
+
+  .squint-btn {
+    font-family: var(--mono);
+    font-size: var(--step-1);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink);
+    background: var(--surface-2);
+    border: 1px solid var(--rule-strong);
+    padding: 0.55rem 1rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    transition: background 140ms ease, color 140ms ease;
+  }
+
+  .squint-btn:hover { background: var(--accent-wash); }
+  .squint-btn[aria-pressed="true"] {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--ground);
+  }
+
+  .squint-dot {
+    width: 0.62rem; height: 0.62rem;
+    border-radius: 50%;
+    background: currentColor;
+    opacity: 0.45;
+  }
+  .squint-btn[aria-pressed="true"] .squint-dot { opacity: 1; }
+
+  .control-note {
+    font-size: var(--step-2);
+    color: var(--ink-soft);
+    max-width: 56ch;
+    margin: 0;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: 2px;
+  }
+
+  /* ---------- palette plates ---------- */
+
+  .plates { display: flex; flex-direction: column; gap: 2.6rem; }
+
+  .plate {
+    display: grid;
+    grid-template-columns: minmax(200px, 250px) 1fr;
+    gap: clamp(1.2rem, 3vw, 2.4rem);
+    border-top: 1px solid var(--rule-strong);
+    padding-top: 1.4rem;
+  }
+
+  .plate-meta { display: flex; flex-direction: column; gap: 0.55rem; }
+
+  .plate-meta h3 {
+    font-family: var(--display);
+    font-weight: 400;
+    font-size: var(--step-5);
+    line-height: 1.05;
+    margin: 0;
+    text-wrap: balance;
+  }
+
+  .scheme {
+    font-family: var(--mono);
+    font-size: var(--step-1);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+
+  .plate-meta .use {
+    margin: 0;
+    font-size: var(--step-2);
+    color: var(--ink-soft);
+    text-wrap: pretty;
+  }
+
+  .recipe {
+    margin: 0.35rem 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    font-family: var(--mono);
+    font-size: var(--step-1);
+    line-height: 1.5;
+    color: var(--ink-faint);
+  }
+  .recipe b {
+    font-weight: 500;
+    color: var(--ink-soft);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .swatches {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.6rem;
+    min-width: 0;
+  }
+
+  .role { display: flex; flex-direction: column; gap: 0.4rem; min-width: 0; }
+
+  .role-label {
+    font-family: var(--mono);
+    font-size: var(--step-1);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.4rem;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 0.3rem;
+  }
+  .role-label .share {
+    color: var(--ink-faint);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .ramp { display: flex; flex-direction: column; }
+
+  .chip {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 0.3rem;
+    padding: 0.5rem 0.55rem;
+    min-height: 3.1rem;
+    border: 0;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.02em;
+    transition: filter 320ms ease;
+  }
+
+  .chip .tier { opacity: 0.66; }
+  .chip .hex { text-transform: uppercase; }
+
+  body.squint .chip { filter: grayscale(1); }
+
+  @media (prefers-reduced-motion: reduce) {
+    .chip, .squint-btn { transition: none; }
+  }
+
+  /* ---------- closing notes ---------- */
+
+  .notes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: clamp(1.4rem, 3vw, 2.4rem);
+    border-top: 1px solid var(--rule-strong);
+    padding-top: 1.6rem;
+  }
+
+  .note h4 {
+    font-family: var(--display);
+    font-weight: 400;
+    font-size: var(--step-4);
+    margin: 0 0 0.35rem;
+    line-height: 1.15;
+  }
+  .note p {
+    margin: 0;
+    font-size: var(--step-2);
+    color: var(--ink-soft);
+    text-wrap: pretty;
+  }
+
+  .colophon {
+    font-family: var(--mono);
+    font-size: var(--step-1);
+    color: var(--ink-faint);
+    border-top: 1px solid var(--rule);
+    padding-top: 1.2rem;
+    max-width: 70ch;
+    line-height: 1.6;
+  }
+
+  @media (max-width: 760px) {
+    .plate { grid-template-columns: 1fr; }
+    .swatches { grid-template-columns: repeat(2, 1fr); gap: 0.8rem 0.6rem; }
+  }
+  @media (max-width: 400px) {
+    .swatches { grid-template-columns: 1fr; }
+  }
+</style>
+
+<div class="wrap">
+
+  <header class="mast">
+    <div class="eyebrow">Colour schemes for the painting desk</div>
+    <h1>Squint Test Palettes</h1>
+    <p class="standfirst">Seven schemes that hold together on a 32&nbsp;mm model, each built as a shadow&ndash;base&ndash;highlight ramp. Drain the hue with the squint test to check the thing that actually matters.</p>
+  </header>
+
+  <section class="rules" aria-label="Three working rules">
+    <div class="rule-item">
+      <h2>Value beats hue</h2>
+      <p>A mini is judged at arm&rsquo;s length. If cloak, armour and skin all sit at the same lightness, it reads as mush no matter how nice the colours are. Split the big areas into light, mid and dark.</p>
+    </div>
+    <div class="rule-item">
+      <h2>Two hues, plus neutrals</h2>
+      <p>Roughly 60 / 30 / 10 &mdash; a dominant, a support, and one small accent that is the loudest thing on the model. Giving every pouch its own colour leaves the eye nowhere to land.</p>
+    </div>
+    <div class="rule-item">
+      <h2>Desaturate around the accent</h2>
+      <p>A slightly greyed blue cloak makes a pure gold buckle sing. Two fully saturated colours just fight. Knock the saturation out of everything you are not trying to draw the eye to.</p>
+    </div>
+  </section>
+
+  <div class="control-bar">
+    <button class="squint-btn" id="squint" type="button" aria-pressed="false">
+      <span class="squint-dot" aria-hidden="true"></span>
+      <span id="squint-label">Squint test</span>
+    </button>
+    <p class="control-note">Strips the hue from every swatch below, leaving only value. Any ramp that goes flat here will go flat on the model.</p>
+  </div>
+
+  <main class="plates" id="plates"></main>
+
+  <section class="notes" aria-label="Working notes">
+    <div class="note">
+      <h4>Metallics are colours</h4>
+      <p>Gold is a warm yellow-orange and steel is a cool grey &mdash; count them in the scheme rather than treating them as free. A model with gold trim already has its warm accent; adding orange leather on top is one warm too many.</p>
+    </div>
+    <div class="note">
+      <h4>Tie it together</h4>
+      <p>Mix a little of the accent colour into shadows elsewhere on the model, or repeat it on one small unrelated detail. Without that echo the scheme reads as separate stickers rather than one figure.</p>
+    </div>
+    <div class="note">
+      <h4>The base is part of the palette</h4>
+      <p>Cool grey stone under a warm-toned model is free contrast. Green grass under a green cloak throws it away. Pick the base last, against the finished model.</p>
+    </div>
+    <div class="note">
+      <h4>Painting a party</h4>
+      <p>Hold one colour constant across the whole warband &mdash; the same leather brown, the same metal &mdash; and change only the accent per model. That is what makes a group read as belonging together without looking identical.</p>
+    </div>
+  </section>
+
+  <p class="colophon">Click any swatch to copy its hex. Paint names are the closest common matches from the Citadel range and are starting points, not exact conversions &mdash; check them against a wet palette before committing to a squad.</p>
+
+</div>
+
+<script>
+const PALETTES = [
+  {
+    name: "Oathbound",
+    scheme: "Complementary — blue / gold",
+    use: "Paladins, clerics, city watch. The workhorse fantasy scheme: cool cloth, cool steel, one warm metal doing all the talking.",
+    shade: "Nuln Oil over the steel, Drakenhof Nightshade over the blue",
+    paints: "Kantor Blue → Macragge Blue · Leadbelcher · Retributor Armour",
+    roles: [
+      { label: "Dominant", share: "60", name: "Deep blue cloth", ramp: ["#101A33", "#1F3566", "#4A6BA8"] },
+      { label: "Support",  share: "30", name: "Cool steel",      ramp: ["#22262B", "#4E565F", "#98A2AC"] },
+      { label: "Accent",   share: "10", name: "Warm gold",       ramp: ["#6B4A17", "#B8862F", "#E8C877"] },
+      { label: "Neutral",  share: "",   name: "Strap leather",   ramp: ["#241A16", "#4A362C", "#7A5F4C"] }
+    ]
+  },
+  {
+    name: "Autumn Ranger",
+    scheme: "Analogous + one accent",
+    use: "Rangers, druids, scouts. Greens and browns sit next to each other on the wheel, so the rust accent does the separating.",
+    shade: "Agrax Earthshade throughout — it warms the greens as it shades them",
+    paints: "Castellan Green · Mournfang Brown · Jokaero Orange",
+    roles: [
+      { label: "Dominant", share: "60", name: "Olive green",   ramp: ["#1C2413", "#47552A", "#8A9B5E"] },
+      { label: "Support",  share: "30", name: "Warm leather",  ramp: ["#2A1B12", "#5E3D26", "#9C7150"] },
+      { label: "Accent",   share: "10", name: "Rust orange",   ramp: ["#5A2408", "#A8481A", "#D98A4A"] },
+      { label: "Neutral",  share: "",   name: "Canvas",        ramp: ["#4A453A", "#8C8474", "#C9C2AF"] }
+    ]
+  },
+  {
+    name: "Grave Chill",
+    scheme: "Split-complementary — bone / green / violet",
+    use: "Undead, liches, crypt hauntings. Bone is the lightest thing on the model, so keep the green small or it turns cartoonish.",
+    shade: "Athonian Camoshade in the bone recesses, Nuln Oil in the deepest gaps",
+    paints: "Zandri Dust → Ushabti Bone · Eshin Grey · Warpstone Glow",
+    roles: [
+      { label: "Dominant", share: "60", name: "Bone",            ramp: ["#5C5343", "#A99B7E", "#E8E0CB"] },
+      { label: "Support",  share: "30", name: "Cold grey",       ramp: ["#1B1F22", "#3E464C", "#7C8790"] },
+      { label: "Accent",   share: "10", name: "Necrotic green",  ramp: ["#16331F", "#3E8A4B", "#8FD98A"] },
+      { label: "Neutral",  share: "",   name: "Violet shadow",   ramp: ["#241633", "#4A2F63", "#7C5C9E"] }
+    ]
+  },
+  {
+    name: "Ninth Hell",
+    scheme: "Complementary — charcoal / molten",
+    use: "Devils, tieflings, fire cults. The dominant is nearly black, so the model lives or dies on where you put the glow.",
+    shade: "Nuln Oil on the charcoal; glaze Carroburg Crimson where red meets orange",
+    paints: "Abaddon Black · Khorne Red → Mephiston Red · Troll Slayer Orange",
+    roles: [
+      { label: "Dominant", share: "60", name: "Charcoal",     ramp: ["#0C0C0E", "#24242A", "#4E4E58"] },
+      { label: "Support",  share: "30", name: "Dark red",     ramp: ["#300A0A", "#7A1A18", "#B84A38"] },
+      { label: "Accent",   share: "10", name: "Molten glow",  ramp: ["#8A3A05", "#E2700F", "#FFC65E"] },
+      { label: "Neutral",  share: "",   name: "Horn",         ramp: ["#3A342C", "#6E655A", "#ADA294"] }
+    ]
+  },
+  {
+    name: "Feywild",
+    scheme: "Analogous + shock accent",
+    use: "Fey, elves, enchanters. Teal and sage are close relatives; the magenta is deliberately the wrong colour, which is the point.",
+    shade: "Coelia Greenshade over teal and sage, kept out of the magenta",
+    paints: "Sotek Green · Loren Forest · Pink Horror → Emperor’s Children",
+    roles: [
+      { label: "Dominant", share: "60", name: "Teal",       ramp: ["#0D2E30", "#1E6E70", "#5FB3AE"] },
+      { label: "Support",  share: "30", name: "Sage green", ramp: ["#29331F", "#5C7042", "#9CB37C"] },
+      { label: "Accent",   share: "10", name: "Magenta",    ramp: ["#59103F", "#B32C79", "#E87BB4"] },
+      { label: "Neutral",  share: "",   name: "Pale gold",  ramp: ["#4E401E", "#93803F", "#D6C486"] }
+    ]
+  },
+  {
+    name: "Sun & Salt",
+    scheme: "Warm analogous, cool break",
+    use: "Desert nomads, genasi, tomb raiders. Everything is warm except one cold turquoise, which reads as jewellery or magic.",
+    shade: "Seraphim Sepia on the sand — Agrax will drag it muddy",
+    paints: "Zamesi Desert → Ushabti Bone · XV-88 · Temple Guard Blue",
+    roles: [
+      { label: "Dominant", share: "60", name: "Sand",         ramp: ["#6A5A3C", "#B79E70", "#EBDCB8"] },
+      { label: "Support",  share: "30", name: "Terracotta",   ramp: ["#4E2114", "#9C4A2C", "#CE8460"] },
+      { label: "Accent",   share: "10", name: "Turquoise",    ramp: ["#0E4045", "#2A8E92", "#74CBC6"] },
+      { label: "Neutral",  share: "",   name: "Bleached grey", ramp: ["#4A4740", "#857F73", "#C2BBAB"] }
+    ]
+  },
+  {
+    name: "Velvet Tyrant",
+    scheme: "Complementary — purple / gold",
+    use: "Warlocks, vampire nobles, cult leaders. Purple sits dark by nature, so push the highlight further than feels comfortable.",
+    shade: "Druchii Violet on the purple, Reikland Fleshshade to warm the gold",
+    paints: "Naggaroth Night → Xereus Purple · Abaddon Black · Balthasar Gold",
+    roles: [
+      { label: "Dominant", share: "60", name: "Royal purple",  ramp: ["#1E1029", "#452A66", "#7C5CA6"] },
+      { label: "Support",  share: "30", name: "Black leather", ramp: ["#0E0E12", "#26242C", "#4E4A56"] },
+      { label: "Accent",   share: "10", name: "Gold",          ramp: ["#6B4A17", "#C29234", "#F0D384"] },
+      { label: "Neutral",  share: "",   name: "Bone",          ramp: ["#58503F", "#9E9376", "#DCD2B8"] }
+    ]
+  }
+];
+
+const TIERS = ["Highlight", "Base", "Shadow"];
+
+function inkFor(hex) {
+  const r = parseInt(hex.slice(1, 3), 16) / 255;
+  const g = parseInt(hex.slice(3, 5), 16) / 255;
+  const b = parseInt(hex.slice(5, 7), 16) / 255;
+  const lin = c => c <= 0.03928 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);
+  const L = 0.2126 * lin(r) + 0.7152 * lin(g) + 0.0722 * lin(b);
+  return L > 0.42 ? "#14170F" : "#F2F3EE";
+}
+
+const plates = document.getElementById("plates");
+
+PALETTES.forEach(p => {
+  const plate = document.createElement("section");
+  plate.className = "plate";
+
+  const meta = document.createElement("div");
+  meta.className = "plate-meta";
+  meta.innerHTML =
+    '<div class="scheme">' + p.scheme + "</div>" +
+    "<h3>" + p.name + "</h3>" +
+    '<p class="use">' + p.use + "</p>" +
+    '<div class="recipe">' +
+      "<span><b>Wash</b> · " + p.shade + "</span>" +
+      "<span><b>Nearest paints</b> · " + p.paints + "</span>" +
+    "</div>";
+
+  const grid = document.createElement("div");
+  grid.className = "swatches";
+
+  p.roles.forEach(role => {
+    const col = document.createElement("div");
+    col.className = "role";
+
+    const label = document.createElement("div");
+    label.className = "role-label";
+    label.innerHTML = "<span>" + role.label + "</span>" +
+      (role.share ? '<span class="share">' + role.share + "%</span>" : "");
+    col.appendChild(label);
+
+    const ramp = document.createElement("div");
+    ramp.className = "ramp";
+
+    // stored dark -> light; painted light at top so the ramp reads lit from above
+    [...role.ramp].reverse().forEach((hex, i) => {
+      const chip = document.createElement("button");
+      chip.type = "button";
+      chip.className = "chip";
+      chip.style.background = hex;
+      chip.style.color = inkFor(hex);
+      chip.title = role.name + " — " + TIERS[i] + " — click to copy " + hex;
+      chip.innerHTML = '<span class="tier">' + TIERS[i][0] + "</span>" +
+                       '<span class="hex">' + hex.slice(1) + "</span>";
+      chip.addEventListener("click", () => {
+        const out = chip.querySelector(".hex");
+        navigator.clipboard.writeText(hex).then(() => {
+          out.textContent = "copied";
+          setTimeout(() => { out.textContent = hex.slice(1); }, 1100);
+        }).catch(() => {
+          out.textContent = hex.slice(1);
+        });
+      });
+      ramp.appendChild(chip);
+    });
+
+    col.appendChild(ramp);
+    grid.appendChild(col);
+  });
+
+  plate.appendChild(meta);
+  plate.appendChild(grid);
+  plates.appendChild(plate);
+});
+
+const btn = document.getElementById("squint");
+const btnLabel = document.getElementById("squint-label");
+btn.addEventListener("click", () => {
+  const on = btn.getAttribute("aria-pressed") === "true";
+  btn.setAttribute("aria-pressed", String(!on));
+  document.body.classList.toggle("squint", !on);
+  btnLabel.textContent = on ? "Squint test" : "Hue off";
+});
+</script>
