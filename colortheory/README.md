@@ -8,7 +8,8 @@ palette sheet.
   grid (Dominant / Support / Accent / Neutral across; Highlight / Base / Shadow
   down). Has a **Squint Test** button that drains the hue from every swatch at
   once, and click-to-copy hex codes.
-- Published copy: https://claude.ai/code/artifact/e6ccc56c-dd55-4726-beaa-35b711a33323
+- [Test palletes](https://htmlpreview.github.io/?https://github.com/DanRoscigno/DnD/blob/master/colortheory/squint-test-palettes.html)
+- [Published copy](https://claude.ai/code/artifact/e6ccc56c-dd55-4726-beaa-35b711a33323)
 
 ---
 
