@@ -13,6 +13,10 @@ palette sheet.
 
 ---
 
+## Neat app
+
+[Coolors](coolors.co)
+
 ## The three ideas that carry most of the weight
 
 Color theory for minis is simpler than the art-school version, because a
