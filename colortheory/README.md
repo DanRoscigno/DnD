@@ -15,7 +15,7 @@ palette sheet.
 
 ## Neat app
 
-[Coolors](coolors.co)
+[Coolors](https://coolors.co)
 
 ## The three ideas that carry most of the weight
 
