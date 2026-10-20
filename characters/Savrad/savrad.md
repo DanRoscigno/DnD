@@ -15,7 +15,7 @@ AC 4
 THAC0 20
 
 ### Current XP:
-  - 19 Oct 2026 = 4,400
+  - 19 Oct 2026 = 4,550
 
 ### Gear
 
