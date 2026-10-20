@@ -21,7 +21,7 @@ THAC0 20
 
 - ~6~ 4 healing potions
 - ~10~ 8 torches
-- 10 days rations (used six days, but restocked)
+- ~10~ 8 days rations (used six days, but restocked)
 
 ### XP for levels
 
